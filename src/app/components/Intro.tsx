@@ -27,10 +27,10 @@ const itemVariants = {
 
 const Intro = () => {
   return (
-    <section className="flex">
-      <div className="flex flex-col mr-5">
+    <section className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col sm:mr-5">
         <motion.h1
-          className="text-5xl lg:text-7xl font-bold mb-4"
+          className="pb-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -38,7 +38,7 @@ const Intro = () => {
           Hello there, I’m Sofia!
         </motion.h1>
         <motion.p
-          className="text-lg lg:text-2xl max-w-xl text-left font-semibold"
+          className="text-lg md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.3 }}
@@ -48,7 +48,7 @@ const Intro = () => {
         </motion.p>
 
         <motion.div
-          className="flex mt-10 gap-[15px]"
+          className="flex pt-10 gap-[15px] justify-center md:justify-start"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -74,7 +74,7 @@ const Intro = () => {
         </motion.div>
       </div>
       <motion.div
-        className="self-auto ml-10"
+        className="self-auto md:ml-10 pt-10 md:mb-0"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.6 }}
@@ -82,7 +82,7 @@ const Intro = () => {
         <img
           src="/images/sofia/sofia.png"
           alt="Sofia"
-          className="max-w-[500px]"
+          className="lg:max-w-[500px] md:max-w-[400px] max-w-[300px]"
         />
       </motion.div>
     </section>
