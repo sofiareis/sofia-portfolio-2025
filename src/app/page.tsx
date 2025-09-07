@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <main className="w-full min-h-screen bg-[#C9A6B8] overflow-x-hidden py-6 md:py-0 ">
-        <section className="h-[calc(100vh-64px)] relative overflow-hidden">
+        <section className="relative overflow-hidden my-20">
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-[#C9A6B8] clip-top z-0" />
             <div className="absolute inset-0 bg-[#8E5572] clip-bottom z-0" />
