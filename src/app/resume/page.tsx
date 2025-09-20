@@ -36,7 +36,7 @@ const Resume = () => {
                   <p className="text-lg font-bold text-[#4E2D36] ">
                     {info.heading}:
                   </p>
-                  <p className="mx-0 mt-1 mb-4">{info.skills.join()}</p>
+                  <p className="mx-0 mt-1 mb-4">{info.skills.join(", ")}</p>
                 </div>
               ))}
             </div>

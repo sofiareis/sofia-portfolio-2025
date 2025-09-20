@@ -5,13 +5,14 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 
+// bg-[linear-gradient(90deg,#BAC3D9_0%,#AC626F_100%)]
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 max-h-[64px] min-h-[64px]  bg-white shadow-md">
+    <nav className="sticky top-0 z-50 max-h-[64px] min-h-[64px] bg-secondary shadow-md text-white">
       <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold text-primary">
+        <Link href="/" className="text-xl font-bold">
           Sofia Bandeira dos Reis
         </Link>
 
@@ -20,7 +21,7 @@ function Navbar() {
             <Link
               key={link.id}
               href={link.url}
-              className="text-gray-800 hover:text-primary transition-colors duration-200 font-medium"
+              className=" hover:text-[#C08791] transition-colors duration-200 font-medium"
             >
               {link.label}
             </Link>
@@ -33,21 +34,27 @@ function Navbar() {
           aria-label="Toggle menu"
         >
           {menuOpen ? (
-            <FontAwesomeIcon icon={faCircleXmark} />
+            <FontAwesomeIcon
+              icon={faCircleXmark}
+              className="text-white cursor-pointer"
+            />
           ) : (
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon
+              icon={faBars}
+              className="text-white cursor-pointer"
+            />
           )}
         </button>
       </div>
 
       {menuOpen && (
-        <div className="md:hidden bg-white px-6 py-4 space-y-4 shadow-lg">
+        <div className="md:hidden bg-[#223046]   px-6 py-4 space-y-4 shadow-lg">
           {navbarLinks.map((link) => (
             <Link
               key={link.id}
               href={link.url}
               onClick={() => setMenuOpen(false)}
-              className="block text-gray-800 hover:text-primary transition-colors duration-200 font-medium"
+              className="block  hover:text-[#C08791] transition-colors duration-200 font-medium"
             >
               {link.label}
             </Link>
