@@ -28,7 +28,16 @@ export const education: Education[] = [
 export const skillSet: Skills[] = [
   {
     heading: "Programming Languages",
-    skills: ["JavaScript", "TypeScript", "CSS", "HTML", "Python, Java, C, C++"],
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "CSS",
+      "HTML",
+      "Python",
+      "Java",
+      "C",
+      "C++",
+    ],
   },
 
   {

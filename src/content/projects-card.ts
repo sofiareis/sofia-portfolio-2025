@@ -1,4 +1,4 @@
-import { CardProps } from "@/app/interfaces/interfaces";
+import { CardProps } from "@/interfaces/interfaces";
 
 export const projects: CardProps[] = [
   {
