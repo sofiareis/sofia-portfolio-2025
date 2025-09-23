@@ -38,19 +38,20 @@ const Intro = () => {
     return () => clearInterval(interval);
   }, [roles.length]);
 
+  //or 7E8D85
   return (
-    <section className="flex flex-col md:flex-row items-center">
-      <div className="flex flex-col sm:mr-5 text-start">
+    <section className="flex flex-col md:flex-row items-center bg-[#864654] rounded-2xl py-4 px-2 md:bg-transparent md:rounded-none md:py-0 md:px-0">
+      <div className="flex flex-col sm:mr-5 md:text-start">
         <motion.h1
           className=""
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hello there
+          Hello there,
         </motion.h1>
         <motion.h1
-          className="pb-4 bg-gradient-to-r from-[#AC626F] to-[#CCC9DC] bg-clip-text text-transparent"
+          className="pb-4 bg-gradient-to-r from-[#7E8D85] to-[#CCC9DC] bg-clip-text text-transparent"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -71,13 +72,14 @@ const Intro = () => {
             </motion.p>
           </AnimatePresence>
         </div>
-        <p className="text-lg md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
-          I am a computer engineering graduate from The University of British
-          Columbia with a passion for software development. lalalalalaalal
+        <p className="text-md md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam
         </p>
 
         <motion.div
-          className="flex pt-10 gap-[15px] justify-center md:justify-start"
+          className="flex pt-5 md:pt-10 gap-[15px] justify-center md:justify-start"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -96,7 +98,7 @@ const Intro = () => {
             >
               <FontAwesomeIcon
                 icon={link.icon}
-                className="text-4xl transition-colors duration-300 "
+                className="md:text-4xl text-xl transition-colors duration-300 "
               />
             </motion.a>
           ))}
@@ -104,7 +106,7 @@ const Intro = () => {
       </div>
 
       <motion.div
-        className="self-auto md:ml-10 md:mb-0"
+        className="self-auto md:ml-10 md:mb-0 mt-2"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.6 }}
@@ -112,7 +114,7 @@ const Intro = () => {
         <img
           src="/images/sofia/Rectangle.png"
           alt="Sofia"
-          className="lg:max-w-[500px] md:max-w-[400px] max-w-[300px]"
+          className="lg:max-w-[500px] md:max-w-[400px] sm:max-w-[300px] max-w-[220px]"
         />
       </motion.div>
     </section>
