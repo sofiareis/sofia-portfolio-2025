@@ -22,11 +22,12 @@ export type ProjectDescription = {
 export type ProjecTechnology = {
   frontend: string[];
   backend: string[];
-  img: string;
+  tools: string[];
+  languages: string[];
   backgroundcolor: string;
   textcolor: string;
-  label: string;
-  textlabel: string;
+  badge: string;
+  badgeTextColor: string;
 };
 
 export type ProjectPrizes = {
