@@ -1,8 +1,8 @@
 export const navbarLinks = [
   {
     url: "/",
-    label: "HOME",
-    id: "home",
+    label: "ABOUT ME",
+    id: "about",
   },
   {
     url: "/projects",

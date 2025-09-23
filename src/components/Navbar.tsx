@@ -4,32 +4,31 @@ import { useState } from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { usePathname } from "next/navigation";
 
 // bg-[linear-gradient(90deg,#BAC3D9_0%,#AC626F_100%)]
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  /* Frame 2 */
 
   return (
-    <nav className="sticky top-0 z-50 max-h-[64px] min-h-[64px] bg-secondary shadow-md text-white">
-      <div className="max-w-[1400px] mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold">
-          Sofia Bandeira dos Reis
-        </Link>
-
-        <div className="hidden md:flex gap-6">
+    <nav className="sticky md:top-10 top-6 z-50 max-h-[64px] min-h-[64px] bg-[#E2E2E2]/80 backdrop-blur-[2px] shadow-[0px_-1px_54px_-1px_rgba(0,0,0,0.25)] text-black md:mx-20 mx-5 rounded-4xl">
+      <div className="flex items-center h-full w-full">
+        <div className="flex justify-evenly items-center w-full">
           {navbarLinks.map((link) => (
             <Link
               key={link.id}
               href={link.url}
-              className=" hover:text-[#C08791] transition-colors duration-200 font-medium"
+              className={`${pathname === `${link.url}` ? "text-white bg-primary " : "hover:text-primary"} md:text-base text-sm transition-all duration-200 font-medium px-3 py-2 rounded-4xl`}
             >
               {link.label}
             </Link>
           ))}
         </div>
-
+        {/** 
         <button
-          className="md:hidden text-gray-800"
+          className="sm:hidden text-gray-800"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -45,10 +44,11 @@ function Navbar() {
             />
           )}
         </button>
+        */}
       </div>
-
+      {/** 
       {menuOpen && (
-        <div className="md:hidden bg-[#223046]   px-6 py-4 space-y-4 shadow-lg">
+        <div className="sm:hidden bg-[#223046]   px-6 py-4 space-y-4 shadow-lg">
           {navbarLinks.map((link) => (
             <Link
               key={link.id}
@@ -61,6 +61,7 @@ function Navbar() {
           ))}
         </div>
       )}
+        */}
     </nav>
   );
 }
