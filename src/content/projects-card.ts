@@ -4,23 +4,28 @@ export const projects: CardProps[] = [
   {
     title: "Cards Tracker",
     description: "A web app for managing your One Piece Card Game collection",
-    imageSrc: "/images/projects/onepiece_card.png",
+    //imageSrc: "/images/projects/onepiece_card.png",
+    imageSrc: "/images/projects/sharity/sharity-iphone.png",
     page: "onepiece",
+    technologies: ["JavaScript", "React"],
   },
   {
     title: "Sharity",
     description:
       "(cmd-f Hackathon 2021) A mobile app that connects users to women's shelters",
-    imageSrc: "/images/projects/sharity_card.png",
+    imageSrc: "/images/projects/sharity/sharity-iphone.png",
     page: "sharity",
+    technologies: ["JavaScript"],
   },
 
   {
     title: "CareerCue",
     description:
       "(cmd-f Hackathon 2023) A web app that helps you practice for interviews by giving you customized feedback",
-    imageSrc: "/images/projects/careercue_card.png",
+    //imageSrc: "/images/projects/careercue_card.png",
+    imageSrc: "/images/projects/sharity/sharity-iphone.png",
     page: "careercue",
+    technologies: ["JavaScript"],
   },
 
   {
@@ -29,6 +34,7 @@ export const projects: CardProps[] = [
       "A desktop app to help physicians of the BC Children’s Hospital with the triage process of patients",
     imageSrc: "/images/projects/patientviz_card.png",
     page: "patientviz",
+    technologies: ["JavaScript"],
   },
 
   {
@@ -37,6 +43,7 @@ export const projects: CardProps[] = [
       "(cmd-f Hackathon 2022) A mobile app designed to provide support and resources for immigrants in a new country",
     imageSrc: "/images/projects/renew_card.png",
     page: "renew",
+    technologies: ["JavaScript"],
   },
 
   {
@@ -45,6 +52,7 @@ export const projects: CardProps[] = [
       "(Pinnacle Hackathon 2021) A mobile app that allows users to buy and sell fresh produce within their local communities",
     imageSrc: "/images/projects/moko_card.png",
     page: "moko",
+    technologies: ["JavaScript"],
   },
 
   {
@@ -53,6 +61,7 @@ export const projects: CardProps[] = [
       "A chess engine that features a hardware-accelerated chess algorithm and an Android app",
     imageSrc: "/images/projects/chessmate_card.png",
     page: "chessmate",
+    technologies: ["JavaScript"],
   },
 
   {
@@ -61,6 +70,7 @@ export const projects: CardProps[] = [
       "A web app to help students manage their time and accomplish tasks",
     imageSrc: "/images/projects/alacrity_card.png",
     page: "alacrity",
+    technologies: ["JavaScript"],
   },
   /*
     {
@@ -88,3 +98,5 @@ export const projects: CardProps[] = [
     },
     */
 ];
+
+export const projectsSummary = projects.slice(0, 3);
