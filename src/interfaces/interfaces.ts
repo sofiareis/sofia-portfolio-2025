@@ -4,6 +4,7 @@ export interface CardProps {
   imageSrc: string;
   alt?: string;
   page: string;
+  technologies: string[];
 }
 
 export interface Project {
