@@ -4,7 +4,7 @@ import Timeline from "./Timeline";
 const About = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-15">
-      <h2 className="mb-5 md:mb-10">MY CAREER</h2>
+      <h2 className="mb-5 md:mb-10">Work Experience</h2>
       <Timeline />
     </section>
   );

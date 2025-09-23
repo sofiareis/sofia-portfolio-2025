@@ -30,14 +30,14 @@ const Timeline = () => {
       whileInView="visible"
       viewport={{ once: false, amount: 0 }}
     >
-      <div className="absolute md:left-7 left-3 top-0 h-full w-px bg-black z-0" />
+      <div className="absolute md:left-7 left-3 top-0 h-full w-[2px] bg-primary/50 z-0" />
       {timeline.map((item, index) => (
         <motion.li
           key={index}
           className="relative md:mb-15 mb-6 pl-2 md:pl-10"
           variants={itemVariants}
         >
-          <span className="absolute left-[-11px] top-0 w-[25px] h-[25px] -translate-x-1/2 rounded-full bg-accent border-1 border-black z-10"></span>
+          {/**  <span className="absolute left-[-11px] top-0 w-[25px] h-[25px] -translate-x-1/2 rounded-full bg-primary/80 z-10"></span> */}
 
           <TimelineCard
             company={item.company}
