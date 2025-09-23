@@ -5,6 +5,7 @@ import { SHARITY } from "@/content/string";
 import { notFound, useParams } from "next/navigation";
 import ProjectPrize from "../components/Prizes";
 import Description from "../components/Description/Description";
+import ProjectTech from "../components/Technology/ProjectTech";
 
 const ProjectPage = () => {
   const params = useParams<{ project: string }>();
@@ -35,6 +36,7 @@ const ProjectPage = () => {
       </div>
       <ProjectInspo {...projectsMap[project].inspiration} />
       <Description {...projectsMap[project].description} />
+      <ProjectTech {...projectsMap[project].technology} />
       {projectsMap[project].prizes && (
         <ProjectPrize {...projectsMap[project].prizes} />
       )}

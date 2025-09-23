@@ -12,7 +12,9 @@ const PrizeCard = ({ prize, description, logo, color }: PrizeCardProps) => {
       style={{ backgroundColor: color }}
     >
       <div className="flex items-center gap-3 mb-4">
-        <img src={logo} alt="prize" className="w-8 h-8" />
+        <div className="bg-white card p-2">
+          <img src={logo} alt="prize" className="max-w-8 max-h-8" />
+        </div>
         <h3>{prize}</h3>
       </div>
       <p className="text-start">{description}</p>
