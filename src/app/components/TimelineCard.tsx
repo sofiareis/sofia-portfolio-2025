@@ -10,9 +10,9 @@ const TimelineCard = ({
   return (
     <div
       className="hover:backdrop-blur-sm transition-transform duration-300 ease-out
-    hover:scale-101 hover:shadow-2xl  bg-white/19 shadow-lg backdrop-blur-md text-start p-10 rounded-[60]"
+    hover:scale-101 hover:shadow-2xl  bg-white/19 shadow-lg backdrop-blur-md text-start md:px-10 py-10 px-5 py-6 rounded-[60]"
     >
-      <h2>{company}</h2>
+      <h3>{company}</h3>
       <h3>{date}</h3>
       <p className="mt-4">{description}</p>
       {achievements && (
@@ -31,7 +31,7 @@ const TimelineCard = ({
         <ul className="list-none flex flex-wrap mt-5 p-0 gap-3">
           {technology.map((tech, index) => (
             <li
-              className="rounded-[40] bg-primary text-white py-2 px-5"
+              className="rounded-[40] bg-primary text-white md:py-2 md:px-5 py-1 px-3"
               key={index}
             >
               {tech}

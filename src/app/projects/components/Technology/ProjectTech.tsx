@@ -27,7 +27,7 @@ const ProjectTech = (project: ProjecTechnology) => {
         color: project.textcolor,
       }}
     >
-      <div className="w-full max-w-[1400px] mx-15 my-10">
+      <div className="w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5">
         <h2 className="mb-4">Project Technologies</h2>
         <div className="mt-4 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8">
           {techCard(project, "frontend", "Frontend")}

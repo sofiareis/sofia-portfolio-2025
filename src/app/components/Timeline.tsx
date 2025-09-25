@@ -24,17 +24,17 @@ const itemVariants = {
 const Timeline = () => {
   return (
     <motion.ul
-      className="relative list-none md:pl-10 pl-6 mb-16"
+      className="relative list-none md:pl-10 pl-5 mb-16"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0 }}
     >
-      <div className="absolute md:left-7 left-3 top-0 h-full w-[2px] bg-primary/50 z-0" />
+      <div className="absolute md:left-7 left-2 top-0 h-full w-[3px] bg-primary/50 z-0" />
       {timeline.map((item, index) => (
         <motion.li
           key={index}
-          className="relative md:mb-15 mb-6 pl-2 md:pl-10"
+          className="relative md:mb-15 mb-6 pl-1 md:pl-10"
           variants={itemVariants}
         >
           {/**  <span className="absolute left-[-11px] top-0 w-[25px] h-[25px] -translate-x-1/2 rounded-full bg-primary/80 z-10"></span> */}

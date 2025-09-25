@@ -15,7 +15,7 @@ const MyProjects = () => {
         <ProjectSlider />
         <Link href="/projects">
           <div className="flex items-center justify-center">
-            <button className="btn text-lg btn-primary rounded-4xl">
+            <button className="btn md:text-lg text-base btn-primary rounded-4xl">
               View all projects
               <span className="iconify lucide--arrow-right" />
             </button>

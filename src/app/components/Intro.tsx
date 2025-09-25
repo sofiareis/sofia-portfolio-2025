@@ -72,7 +72,7 @@ const Intro = () => {
             </motion.p>
           </AnimatePresence>
         </div>
-        <p className="text-md md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
+        <p className="text-base md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam
@@ -114,7 +114,7 @@ const Intro = () => {
         <img
           src="/images/sofia/Rectangle.png"
           alt="Sofia"
-          className="lg:max-w-[500px] md:max-w-[400px] sm:max-w-[300px] max-w-[220px]"
+          className="lg:max-w-[450px] md:max-w-[350px] sm:max-w-[300px] max-w-[220px]"
         />
       </motion.div>
     </section>

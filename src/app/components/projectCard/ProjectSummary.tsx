@@ -9,28 +9,30 @@ const ProjectSummary = ({
   technologies,
 }: CardProps) => {
   return (
-    <div className="grid grid-cols-2 gap-5">
+    <div className="md:grid md:grid-cols-2 md:gap-5 flex flex-col">
       <img
         src={imageSrc}
         alt={`project-summary-${title}`}
         className="object-contain w-full max-h-[400px]"
       />
       <div className="flex flex-col">
-        <p className="text-2xl font-semibold mb-5">{title}</p>
+        <p className="md:text-2xl text-lg font-semibold md:mb-5 mb-2 text-center md:text-start">
+          {title}
+        </p>
         <p>{description}</p>
-        <div className="mt-5 flex gap-2">
+        <div className="mt-5 flex flex-row  gap-2">
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="bg-[#7E8D85]/20 rounded-[100] px-3 py-1 font-semibold"
+              className="w-fit bg-[#7E8D85]/20 rounded-[100] px-3 py-1 font-semibold text-sm md:text-base"
             >
               {tech}
             </span>
           ))}
         </div>
-        <div className="flex items-center text-center mt-10 ">
+        <div className="flex items-center text-center md:mt-10 mt-5">
           <Link href={`/projects/${page}`}>
-            <button className="btn hover:shadow-lg hover:scale-101 bg-[#7E8D85] shadow-md shadow-black/25 border-0 text-white flex items-center gap-2 rounded-[100] px-4 py-2 font-semibold text-lg">
+            <button className="btn hover:shadow-lg hover:scale-101 bg-[#7E8D85] shadow-md shadow-black/25 border-0 text-white flex items-center gap-2 rounded-[100] md:px-4 md:py-2 py-1 px-3 font-semibold md:text-lg text-base">
               Learn more <span className="iconify lucide--arrow-right size-5" />
             </button>
           </Link>

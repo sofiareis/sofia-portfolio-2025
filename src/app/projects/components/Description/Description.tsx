@@ -7,7 +7,7 @@ import CenterMode from "./CenterSlider";
 const Description = (project: ProjectDescription) => {
   return (
     <div className="flex items-center justify-center relative">
-      <div className="w-full max-w-[1400px] mx-15 my-10">
+      <div className="w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5">
         <h2 className="mb-4">Project Description</h2>
         <div className="flex flex-col items-center justify-center">
           {project.descriptionArray.map((value, index) => (

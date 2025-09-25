@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
     text-primary
     hover:text-secondary hover:cursor-pointer"
     >
-      <span className="iconify lucide--chevron-right size-10" />
+      <span className="iconify lucide--chevron-right md:size-10 size-8" />
     </button>
   );
 }
@@ -28,7 +28,7 @@ function SamplePrevArrow(props) {
     text-primary
     hover:text-secondary hover:cursor-pointer"
     >
-      <span className="iconify lucide--chevron-left size-10" />
+      <span className="iconify lucide--chevron-left md:size-10 size-8" />
     </button>
   );
 }
@@ -52,7 +52,7 @@ const ProjectSlider = () => {
     ),
   };
   return (
-    <div className="slider-container w-[calc(100vw-60px)] max-w-[900px] mx-auto mt-15 relative">
+    <div className="slider-container w-[calc(100vw-60px)] max-w-[900px] mx-auto md:mt-15 mt-10 relative">
       <Slider {...settings} className="mb-18">
         {projectsSummary.map((project, index) => (
           <ProjectSummary
