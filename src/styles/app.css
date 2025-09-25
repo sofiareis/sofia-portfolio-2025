@@ -26,12 +26,14 @@
   --color-primaryHover: #934d5a;
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
+*/
 
 body {
   background: var(--background);
@@ -39,20 +41,29 @@ body {
   font-family: "Space Mono", monospace;
 }
 
-h1 {
-  font-family: "Lexend Peta", sans-serif;
-  @apply text-3xl md:text-5xl lg:text-7xl font-bold;
-}
+@layer base {
+  h1 {
+    font-family: "Lexend Peta", sans-serif;
+    @apply text-3xl md:text-5xl lg:text-7xl font-bold;
+  }
 
-h2 {
-  font-family: "Lexend Peta", sans-serif;
-  @apply text-xl md:text-3xl font-semibold tracking-wide;
-}
+  h2 {
+    font-family: "Lexend Peta", sans-serif;
+    @apply text-xl md:text-3xl font-semibold tracking-wide;
+  }
 
-h3 {
-  font-family: "Nova Mono", monospace;
-  font-optical-sizing: auto;
-  @apply text-base md:text-lg font-semibold;
+  h3 {
+    font-family: "Nova Mono", monospace;
+    font-optical-sizing: auto;
+    @apply text-base md:text-lg font-semibold;
+  }
+  p {
+    @apply text-sm md:text-base;
+  }
+
+  li {
+    @apply text-sm md:text-base;
+  }
 }
 
 .clip-top {
