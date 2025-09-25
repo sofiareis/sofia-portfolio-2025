@@ -1,9 +1,9 @@
-type techSquare = {
+export type techSquare = {
   tech: string;
   img: string;
 };
 
-export const technologies: techSquare[] = [
+export const technologies_small: techSquare[] = [
   {
     tech: "ReactJS",
     img: "images/tech-logo/react.png",
@@ -24,4 +24,30 @@ export const technologies: techSquare[] = [
     tech: "ExpressJS",
     img: "images/tech-logo/expressjs.svg",
   },
+  {
+    tech: "JavaScript",
+    img: "images/tech-logo/js-logo.svg",
+  },
+  {
+    tech: "TypeScript",
+    img: "images/tech-logo/ts-logo.png",
+  },
+  {
+    tech: "CSS",
+    img: "images/tech-logo/css-logo.svg",
+  },
+  {
+    tech: "Python",
+    img: "images/tech-logo/python-logo.png",
+  },
+  {
+    tech: "PostgresSQL",
+    img: "images/tech-logo/postgres-logo.png",
+  },
+  {
+    tech: "MongoDB",
+    img: "images/tech-logo/mongo-logo.svg",
+  },
 ];
+
+export const technologies = [...technologies_small, ...technologies_small];
