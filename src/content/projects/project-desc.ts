@@ -26,20 +26,12 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "On the user side:\n- Sharity allows users to connect to women shelters and donate clothing articles and period products\n- Users can take pictures of their items, upload them to the app, and donate to selected organizations\n- Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist\n- Users also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations",
-
+          "On the user side:\n- Sharity allows users to connect to women shelters and donate clothing articles and period products\n- Users can take pictures of their items, upload them to the app, and donate to selected organizations\n- Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist\n- Users also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations. On the charities side:\n- Organizations can swipe left and right on donation items they wish accept or decline\n- They may chat with users about donation pickup/drop-off information\n- Organizations can also edit their account and donation wishlist",
         img: [
           `${imageSrc}/sharity/description/user1.png`,
           `${imageSrc}/sharity/description/user2.png`,
           `${imageSrc}/sharity/description/user3.png`,
           `${imageSrc}/sharity/description/landing.png`,
-        ],
-      },
-      {
-        description:
-          "On the charities side:\n- Organizations can swipe left and right on donation items they wish accept or decline\n- They may chat with users about donation pickup/drop-off information\n- Organizations can also edit their account and donation wishlist",
-
-        img: [
           `${imageSrc}/sharity/description/charity1.png`,
           `${imageSrc}/sharity/description/charity2.png`,
         ],
