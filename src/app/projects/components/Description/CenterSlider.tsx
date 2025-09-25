@@ -7,14 +7,12 @@ function NextArrow(props: any) {
   return (
     <button
       onClick={onClick}
-      className=" absolute right-2 top-1/2 -translate-y-1/2 z-10
+      className=" absolute right-6 top-1/2 -translate-y-1/2 z-10 translate-x-full
     flex items-center justify-center
-    w-6 h-6
-    bg-secondary/50 text-white
-    rounded-full
-    hover:bg-secondary/70"
+    text-primary
+    hover:text-secondary hover:cursor-pointer"
     >
-      <span className="iconify lucide--chevron-right size-5" />
+      <span className="iconify lucide--chevron-right size-10" />
     </button>
   );
 }
@@ -24,66 +22,55 @@ function PrevArrow(props: any) {
   return (
     <button
       onClick={onClick}
-      className="absolute left-2 top-1/2 -translate-y-1/2 z-10 
-      flex items-center justify-center
-    w-6 h-6 bg-secondary/50 text-white rounded-full hover:bg-secondary/70"
+      className="absolute left-8 top-1/2 -translate-y-1/2 z-10 -translate-x-full
+    flex items-center justify-center
+    text-primary
+    hover:text-secondary hover:cursor-pointer"
     >
-      <span className="iconify lucide--chevron-left size-5" />
+      <span className="iconify lucide--chevron-left size-10" />
     </button>
   );
 }
 
 function CenterMode({ images }: { images: string[] }) {
   const settings: Settings = {
-    className: "center",
+    //className: "center",
     dots: true,
     infinite: true,
-    centerMode: true,
+    //centerMode: true,
     variableWidth: true,
     speed: 500,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    responsive: [
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToScroll: 1,
-          initialSlide: 1,
-          //centerPadding: "30px",
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          //slidesToShow: 1,
-          slidesToScroll: 1,
-          //centerPadding: "20px",
-        },
-      },
-    ],
+    appendDots: (dots: number) => (
+      <div className="p-6 relative z-10">
+        <ul className="flex justify-center gap-2 m-0">{dots}</ul>
+      </div>
+    ),
+    customPaging: (i: number) => (
+      <div className="mt-5 btn btn-xs btn-circle btn-primary">{i + 1}</div>
+    ),
   };
   return (
-    <div className="flex justify-center">
-      <div className="slider-container w-[calc(100vw-80px)] max-w-[900px] mx-auto">
-        <Slider {...settings}>
-          {images.map((img, i) => (
-            <div
-              key={i}
-              className="flex flex-col items-center justify-center px-4"
-            >
-              <img
-                src={img}
-                alt={`slide-${i}`}
-                className="h-auto max-h-[400px] w-auto shadow-lg rounded-lg"
-              />
-              <p className="mt-2 text-center text-sm text-gray-600">
-                Image description
-              </p>
-            </div>
-          ))}
-        </Slider>
-      </div>
+    <div className="slider-container w-[calc(100vw-60px)] max-w-[900px] mx-auto relative">
+      <Slider {...settings}>
+        {images.map((img, i) => (
+          <div
+            key={i}
+            className="flex flex-col items-center justify-center px-4"
+          >
+            <img
+              src={img}
+              alt={`slide-${i}`}
+              className="h-auto max-h-[400px] w-auto shadow-lg rounded-lg"
+            />
+            <p className="mt-2 text-center text-sm text-gray-600">
+              Image description
+            </p>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }

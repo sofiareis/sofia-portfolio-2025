@@ -16,13 +16,15 @@ const ProjectPage = () => {
   return (
     <div className="">
       <div className="flex justify-center items-center mx-20 my-20">
-        <div className="text-primary text-center mt-10 text-3xl md:text-4xl lg:text-5xl font-semibold">
-          <p className="mb-4">She + share + charity:</p>
-          <p className="text-black mb-10 font-medium">
+        <div className="text-primary text-center mt-10">
+          <p className="mb-4 text-3xl md:text-4xl lg:text-5xl font-semibold">
+            She + share + charity:
+          </p>
+          <p className="text-black mb-10 font-medium text-3xl md:text-4xl lg:text-5xl">
             Empowering women through <br />
             donations and sustainability
           </p>
-          <p className="text-4xl md:text-5xl lg:text-6xl ">
+          <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">
             Welcome to Sharity
           </p>
         </div>
