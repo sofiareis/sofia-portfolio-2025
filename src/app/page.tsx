@@ -1,4 +1,5 @@
 import About from "./components/AboutMe";
+import Education from "./components/Education/Education";
 import Intro from "./components/Intro";
 import MyProjects from "./components/projectCard/MyProjects";
 import Technologies from "./components/technologies/Technologies";
@@ -27,6 +28,13 @@ export default function Home() {
       </div>
       <MyProjects />
       <Technologies />
+      <Education />
     </main>
   );
 }
+
+/*
+<div className="absolute top-1/2 left-0 w-full -translate-y-1/2 z-0">
+            <div className="h-[500px] md:h-[700px] bg-black transform skew-y-[9deg] origin-top-left z-25 -mt-10" />
+          </div>
+          */
