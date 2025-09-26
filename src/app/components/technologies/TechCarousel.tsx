@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import TechCard from "./TechCard";
 const TechCarousel = () => {
   return (
-    <div className="w-full mt-12 relative flex overflow-x-hidden">
+    <div className="w-full mt-5 md:mt-12 relative flex overflow-x-hidden">
       <motion.div
         className="flex justify-center items-center py-4"
         animate={{ x: ["0%", "-100%"] }}
