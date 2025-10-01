@@ -33,7 +33,9 @@ export default function RootLayout({
           <div className="flex">
             <div className="flex h-screen min-w-0 grow flex-col overflow-auto">
               <Navbar />
-              <div id="layout-content"> {children}</div>
+              <div id="layout-content" className="relative z-10">
+                {children}
+              </div>
               <Footer />
             </div>
           </div>
