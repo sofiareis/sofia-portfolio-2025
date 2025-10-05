@@ -5,7 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { DotButton, useDotButton } from "./CarouselDots";
 
 export default function ImageCarousel({ images }: { images: string[] }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, []);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -27,7 +27,7 @@ export default function ImageCarousel({ images }: { images: string[] }) {
               <img
                 src={img}
                 alt={`slide-${index}`}
-                className="h-auto max-h-[400px] w-auto shadow-lg rounded-lg "
+                className="embla__slide__img h-auto md:max-h-[400px] max-h-[300px] w-auto shadow-lg rounded-lg "
               />
             </div>
           ))}
@@ -37,16 +37,16 @@ export default function ImageCarousel({ images }: { images: string[] }) {
       <div className="embla__controls">
         <div className="embla__buttons">
           <button
-            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer"
+            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer border-2 rounded-xl"
             onClick={scrollPrev}
           >
-            <span className="iconify lucide--chevron-left size-10" />
+            <span className="iconify lucide--chevron-left md:size-7 size-5" />
           </button>
           <button
-            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer"
+            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer border-2 rounded-xl"
             onClick={scrollNext}
           >
-            <span className="iconify lucide--chevron-right size-10" />
+            <span className="iconify lucide--chevron-right md:size-7 size-5" />
           </button>
         </div>
         <div className="embla__dots">

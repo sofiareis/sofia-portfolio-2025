@@ -18,12 +18,17 @@
   max-width: 100%;
 }
 
+.embla__slide__img {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  user-select: none;
+}
+
 .embla__controls {
   display: grid;
   grid-template-columns: auto 1fr;
   justify-content: space-between;
   gap: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 .embla__buttons {
   display: grid;
