@@ -1,8 +1,6 @@
 import React from "react";
 import { ProjectDescription } from "@/interfaces/projects";
-import PrizeCard from "../PrizeCard";
-import ImageSlider from "./ImageSlider";
-import CenterMode from "./CenterSlider";
+import ImageCarousel from "./ImageCarousel";
 
 const Description = (project: ProjectDescription) => {
   return (
@@ -14,7 +12,7 @@ const Description = (project: ProjectDescription) => {
             <div key={index} className={`mb-8 flex flex-col`}>
               <p className={`mb-20`}>{value.description}</p>
               {value.img.length > 1 ? (
-                <CenterMode images={value.img} />
+                <ImageCarousel images={value.img} />
               ) : (
                 <img
                   src={value.img[0]}
