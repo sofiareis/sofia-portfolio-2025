@@ -10,7 +10,7 @@ const Description = (project: ProjectDescription) => {
         <div className="flex flex-col items-center justify-center">
           {project.descriptionArray.map((value, index) => (
             <div key={index} className={`mb-8 flex flex-col`}>
-              <p className={`mb-20`}>{value.description}</p>
+              <p className={`mb-10`}>{value.description}</p>
               {value.img.length > 1 ? (
                 <ImageCarousel images={value.img} />
               ) : (
@@ -29,5 +29,3 @@ const Description = (project: ProjectDescription) => {
 };
 
 export default Description;
-
-// <ImageSlider images={value.img} type={project.imageType} />
