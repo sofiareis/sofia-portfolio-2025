@@ -5,6 +5,7 @@ export interface CardProps {
   alt?: string;
   page: string;
   technologies: string[];
+  backgroundcolor: string;
 }
 
 export interface Project {
