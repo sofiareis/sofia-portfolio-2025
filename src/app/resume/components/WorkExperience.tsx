@@ -21,7 +21,7 @@ const WorkExperience = () => {
               {info.skills.map((skill, indexSkill) => (
                 <li
                   key={indexSkill}
-                  className="font-semibold bg-[rgba(153,153,153,0.2)] text-[#666] mr-5 mb-3 md:px-4 md:py-3 px-3 py-2 rounded-[5px]"
+                  className="font-semibold bg-[rgba(153,153,153,0.2)] text-[#666] mr-5 mb-3 md:px-4 md:py-2 px-3 py-2 rounded-[5px]"
                 >
                   {skill}
                 </li>

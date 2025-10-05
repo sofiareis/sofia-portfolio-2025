@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div className="flex justify-center">
       <div className="z-[1] flex w-full max-w-[1400px] flex-col mx-auto py-10 md:py-20 md:px-10 px-5">
-        <div className="md:grid md:grid-cols-[0.8fr_2fr] md:gap-6 md:items-start flex flex-col md:px-[50px] md:py-[60px] px-[20px] py-[30px] bg-[#E9EAEC]">
+        <div className="md:grid md:grid-cols-[0.8fr_2fr] md:gap-6 md:items-start flex flex-col md:px-[50px] md:py-[60px] px-[20px] py-[30px] bg-[#E9EAEC] shadow-lg shadow-black/60">
           <div className="hidden invisible md:block md:visible md:mb-[25px]">
             {skillSet.map((info, index) => (
               <div key={index} className="flex flex-col mb-5">

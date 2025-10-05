@@ -13,10 +13,10 @@ const ProjectInspo = (project: ProjectInspiration) => {
     >
       <div className="w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5">
         <div className="flex flex-col md:flex-row md:items-center md:justify-start">
-          <div className="flex flex-col md:mr-12">
+          <div className="flex flex-col md:mr-10">
             <h2 className="mb-4">The Inspiration</h2>
             <p className="leading-relaxed">{project.inspo}</p>
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 flex flex-wrap gap-3">
               {project.githubLink && (
                 <CodeChip
                   title={"View Code"}
@@ -34,11 +34,11 @@ const ProjectInspo = (project: ProjectInspiration) => {
               )}
             </div>
           </div>
-          <div className={`flex items-center mt-8 md:mt-0`}>
+          <div className={`flex items-center justify-center mt-8 md:mt-0`}>
             <img
               alt=""
               src={project.img}
-              className="lg:max-h-[380px] lg:max-w-[450px] ml-0 md:ml-12 rounded-lg shadow-lg
+              className="lg:max-h-[380px] lg:max-w-[450px] ml-0 rounded-lg shadow-lg shadow-black/30
                            md:max-h-[350px] md:max-w-[350px] 
                            max-h-[250px] max-w-[300px]"
             />
