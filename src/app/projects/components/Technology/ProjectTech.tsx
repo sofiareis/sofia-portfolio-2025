@@ -11,7 +11,8 @@ const techCard = (
     <TechCard
       tech={project[type]}
       cardColor={project.backgroundcolor}
-      textColor={project.badgeTextColor}
+      badgeTextColor={project.badgeTextColor}
+      textColor={project.textcolor}
       badgeColor={project.badge}
       title={title}
     />
@@ -29,7 +30,7 @@ const ProjectTech = (project: ProjecTechnology) => {
     >
       <div className="w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5">
         <h2 className="mb-4">Project Technologies</h2>
-        <div className="mt-4 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="mt-4 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-8 ">
           {techCard(project, "frontend", "Frontend")}
           {techCard(project, "backend", "Backend")}
           {techCard(project, "languages", "Languages")}

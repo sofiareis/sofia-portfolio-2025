@@ -16,6 +16,8 @@ function Loading() {
                 description={proj.description}
                 alt={`Project ${idx + 1}`}
                 page={proj.page}
+                backgroundcolor={proj.backgroundcolor}
+                technologies={proj.technologies}
               />
             ))}
           </div>

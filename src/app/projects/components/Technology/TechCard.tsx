@@ -1,8 +1,10 @@
+import { motion } from "motion/react";
 type TechCardProps = {
   tech: string[];
   //logo: string;
   cardColor: string;
   textColor: string;
+  badgeTextColor: string;
   badgeColor: string;
   title: string;
 };
@@ -11,28 +13,31 @@ const TechCard = ({
   tech,
   cardColor,
   textColor,
+  badgeTextColor,
   badgeColor,
   title,
 }: TechCardProps) => {
   return (
-    <div
-      className={`card shadow-lg shadow-accent py-6 ring-1 `}
+    <motion.div
+      className={`card shadow-lg shadow-accent py-6 ring-1 px-8`}
       style={{ backgroundColor: cardColor, color: textColor }}
     >
       <p className="text-2xl font-semibold mb-4 text-center">{title}</p>
-      <div className="flex flex-col items-center">
+      <div
+        className="flex gap-2 flex-wrap md:grid md:gap-0 md:grid-rows-1 md:justify-center"
+        style={{ color: badgeTextColor }}
+      >
         {tech.map((value, index) => (
           <div
             key={index}
-            className="w-48 rounded-2xl backdrop-blur-md py-1 px-3 my-2 shadow-lg text-center"
+            className="md:max-w-48 md:min-w-42 rounded-2xl backdrop-blur-md py-1 px-3 my-2 shadow-lg text-center"
             style={{ backgroundColor: badgeColor }}
           >
-            {/*<img src={logo} alt="prize" className="w-8 h-8" />*/}
             <h3>{value}</h3>
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
