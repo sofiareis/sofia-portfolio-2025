@@ -15,7 +15,7 @@ export const projectPrizes: Record<string, ProjectPrizes> = {
       },
     ],
 
-    label: "#4849B8",
+    label: "#C1EBD1",
   },
   [SHARITY]: {
     prizes: [
@@ -59,6 +59,6 @@ export const projectPrizes: Record<string, ProjectPrizes> = {
     ],
 
     //renew: true,
-    label: "#4A6FA5",
+    label: "#8EA7CC",
   },
 };

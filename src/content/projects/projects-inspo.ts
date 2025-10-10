@@ -15,7 +15,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
     inspo:
       "The inspiration behind CareerCue came from recognizing the challenges and anxiety many people face when preparing for job interviews. The interview process can be stressful, and many people don't have the resources to know how to best prepare for the questions that may be asked.\nCareerCue is made for anyone who is looking to improve their interview skills. This includes beginners entering the workforce for the first time, underprivileged demographics who have limited access to career resources, moms looking to return to their careers after a long break, and people affected by the pandemic who are trying to improve their communication skills.",
     img: "/images/projects/careercue/inspo.png",
-    backgroundcolor: "#FBDFFD",
+    backgroundcolor: "#A09ED1",
     textcolor: "black",
     githubLink: "https://github.com/sofiareis/cmdf2023",
     devpostLink: "https://devpost.com/software/careercue",
@@ -24,7 +24,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
     inspo:
       "Alacrity is a web app meant to help students manage their time. It provides an interface for students to enter their due dates, plan work sessions and rearrange those work sessions to spread the work out more evenly.",
     img: "/images/projects/alacrity/home.png",
-    backgroundcolor: "#79F87C", //????
+    backgroundcolor: "#62C5F7", //????
     textcolor: "black",
     githubLink: "https://github.com/sofiareis/Alacrity",
   },
@@ -49,17 +49,17 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
   },
   [PATIENVIZ]: {
     inspo:
-      "Triage is a crucial tool in managing long waitlists as the triage process enables more equitable care and allows patients with the greatest and most urgent needs to be seen first (Moskop & Iserson, 2004). However, the triage process can be complicated, as referrals received by specialist physicians often differ in detail and length.\nThe goal of PatientViz is to help physicians with the triage process and minimize long waiting lists.",
+      "Triage is a crucial tool in managing long waitlists as the triage process enables more equitable care and allows patients with the greatest and most urgent needs to be seen first. However, the triage process can be complicated, as referrals received by specialist physicians often differ in detail and length.\nThe goal of PatientViz is to help physicians with the triage process and minimize long waiting lists.",
     img: "/images/projects/patientviz/health2.png",
-    backgroundcolor: "#A96385",
+    backgroundcolor: "#8D6AA3",
     textcolor: "black",
     //box: true,
   },
   [RENEW]: {
     inspo:
-      " In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Renew is meant to help refugees in similar situations as they navigate life in a new, unfamiliar country.",
-    img: "/images/projects/careercue/inspo.png",
-    backgroundcolor: "#386641",
+      "In light of the war in Ukraine in 2022, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Renew is meant to help refugees in similar situations as they navigate life in a new, unfamiliar country.",
+    img: "/images/projects/renew/renewInspo.png",
+    backgroundcolor: "#839788",
     textcolor: "black",
     //renew: true,
     githubLink: "https://github.com/sofiareis/renew",
@@ -67,7 +67,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
   },
   [SHARITY]: {
     inspo:
-      "Inspired by the words: she, share, and charity, Sharity was created: a female empowerment donation app. Sharity promotes women empowerment in the community and sustainability by encouraging users to donate their used or new items to local female’s shelters.",
+      "Inspired by the words - she, share, and charity - Sharity was created: a female empowerment donation app. Sharity promotes women empowerment in the community and sustainability by encouraging users to donate their used or new items to local female’s shelters.",
     img: "/images/projects/sharity/inspo.png",
     backgroundcolor: "#739AAB",
     textcolor: "white",
@@ -78,7 +78,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
     inspo:
       "As an avid collector of the One Piece Card Game, I searched for a tool to manage my collection. However, existing card trackers either lacked certain features I wanted or didn’t have a One Piece Card database. So, my project was born out of the desire to create a product I wished had already existed.\nOne of the key inspirations behind this project was the absence of a dedicated missing card feature in other trackers. I wanted a tool that not only helped me catalog my existing collection but also showed me exactly which cards I didn't have.",
     img: "/images/projects/onepiece/search.png",
-    backgroundcolor: "#EDDFBC",
+    backgroundcolor: "#B6AC90",
     textcolor: "black",
     githubLink: "https://github.com/sofiareis/One_Piece_Card",
   },
