@@ -38,7 +38,7 @@ const ProjectInspo = (project: ProjectInspiration) => {
             <img
               alt=""
               src={project.img}
-              className="lg:max-h-[380px] lg:max-w-[450px] ml-0 rounded-lg shadow-lg shadow-black/30
+              className="lg:max-h-[380px] lg:max-w-[450px] ml-0 rounded-lg drop-shadow-xl drop-shadow-black/30
                            md:max-h-[350px] md:max-w-[350px] 
                            max-h-[250px] max-w-[300px]"
             />
