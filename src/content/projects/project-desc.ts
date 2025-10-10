@@ -1,10 +1,20 @@
 import { ProjectDescription } from "@/interfaces/projects";
+import {
+  ALACRITY,
+  CAREERCUE,
+  CHESSMATE,
+  MOKO,
+  ONEPIECE,
+  PATIENVIZ,
+  RENEW,
+  SHARITY,
+} from "../string";
 
 const imageSrc = "/images/projects";
 const logoFolder = "prize-logo";
 
 export const projectDescription: Record<string, ProjectDescription> = {
-  moko: {
+  [MOKO]: {
     descriptionArray: [
       {
         description:
@@ -21,13 +31,12 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "1",
   },
-  sharity: {
+  [SHARITY]: {
     descriptionArray: [
       {
         description:
-          "On the user side:\n- Sharity allows users to connect to women shelters and donate clothing articles and period products\n- Users can take pictures of their items, upload them to the app, and donate to selected organizations\n- Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist\n- Users also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations. On the charities side:\n- Organizations can swipe left and right on donation items they wish accept or decline\n- They may chat with users about donation pickup/drop-off information\n- Organizations can also edit their account and donation wishlist",
+          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and period products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist. They  also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations. On the charities side, organizations can swipe left and right on donation items they wish accept or decline. They may chat with users about donation pickup/drop-off information and organizations can also edit their account and donation wishlist.",
         img: [
           `${imageSrc}/sharity/description/landing.png`,
           `${imageSrc}/sharity/description/user1.png`,
@@ -41,10 +50,9 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "1",
     imageType: "phone",
   },
-  chessmate: {
+  [CHESSMATE]: {
     descriptionArray: [
       {
         description:
@@ -63,9 +71,8 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "1",
   },
-  careercue: {
+  [CAREERCUE]: {
     descriptionArray: [
       {
         description:
@@ -77,10 +84,8 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-
-    type: "2",
   },
-  patientviz: {
+  [PATIENVIZ]: {
     descriptionArray: [
       {
         description:
@@ -105,9 +110,8 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "2",
   },
-  alacrity: {
+  [ALACRITY]: {
     descriptionArray: [
       {
         description:
@@ -123,14 +127,13 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "2",
     background: "#F5C0E2",
   },
-  renew: {
+  [RENEW]: {
     descriptionArray: [
       {
         description:
-          "Renew is an app designed to provide support and resources for immigrants in a new country. The app name was chosen to represent the fact that it helps refugees as they start a new life in a new country, hence renew.\nThe app features a community function where users are grouped into communities based on where they came from and where they have immigrated to. Within these communities, users can post and comment about any questions or resources for users to learn from each other. Additionally, there is a map feature which filters for nearby food banks, hospitals, and areas with recent criminal activity.",
+          "The app name was chosen to represent the fact that it helps refugees as they start a new life in a new country, hence renew. It app features a community function where users are grouped into communities based on where they came from and where they have immigrated to. Within these communities, users can post and comment about any questions or resources for users to learn from each other. Additionally, there is a map feature which filters for nearby food banks, hospitals, and areas with recent criminal activity.",
         img: [
           `${imageSrc}/renew/desc1.png`,
           `${imageSrc}/renew/desc2.png`,
@@ -141,9 +144,8 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "3",
   },
-  onepiece: {
+  [ONEPIECE]: {
     descriptionArray: [
       {
         description:
@@ -165,6 +167,5 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    type: "4",
   },
 };
