@@ -14,8 +14,7 @@ type descriptionImage = {
 
 export type ProjectDescription = {
   descriptionArray: descriptionImage[];
-  imageType?: "phone";
-  background?: string;
+  backgroundcolor: string;
 };
 
 export type ProjecTechnology = {

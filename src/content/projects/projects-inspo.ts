@@ -24,8 +24,8 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
     inspo:
       "Alacrity is a web app meant to help students manage their time. It provides an interface for students to enter their due dates, plan work sessions and rearrange those work sessions to spread the work out more evenly.",
     img: "/images/projects/alacrity/home.png",
-    backgroundcolor: "#62C5F7", //????
-    textcolor: "black",
+    backgroundcolor: "#352964",
+    textcolor: "white",
     githubLink: "https://github.com/sofiareis/Alacrity",
   },
   [CHESSMATE]: {

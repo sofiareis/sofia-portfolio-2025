@@ -15,6 +15,7 @@ const logoFolder = "prize-logo";
 
 export const projectDescription: Record<string, ProjectDescription> = {
   [MOKO]: {
+    backgroundcolor: "#87B676",
     descriptionArray: [
       {
         description:
@@ -33,6 +34,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [SHARITY]: {
+    backgroundcolor: "#739AAB",
     descriptionArray: [
       {
         description:
@@ -50,9 +52,9 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    imageType: "phone",
   },
   [CHESSMATE]: {
+    backgroundcolor: "#97B6A7",
     descriptionArray: [
       {
         description:
@@ -73,6 +75,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [CAREERCUE]: {
+    backgroundcolor: "#A09ED1",
     descriptionArray: [
       {
         description:
@@ -86,6 +89,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [PATIENVIZ]: {
+    backgroundcolor: "#8D6AA3",
     descriptionArray: [
       {
         description:
@@ -127,9 +131,10 @@ export const projectDescription: Record<string, ProjectDescription> = {
         ],
       },
     ],
-    background: "#F5C0E2",
+    backgroundcolor: "#352964",
   },
   [RENEW]: {
+    backgroundcolor: "#839788",
     descriptionArray: [
       {
         description:
@@ -146,6 +151,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [ONEPIECE]: {
+    backgroundcolor: "#B6AC90",
     descriptionArray: [
       {
         description:

@@ -12,7 +12,10 @@ const Description = (project: ProjectDescription) => {
             <div key={index} className={`mb-8 flex flex-col`}>
               <p className={`mb-10`}>{value.description}</p>
               {value.img.length > 1 ? (
-                <ImageCarousel images={value.img} />
+                <ImageCarousel
+                  images={value.img}
+                  color={project.backgroundcolor}
+                />
               ) : (
                 <img
                   src={value.img[0]}
