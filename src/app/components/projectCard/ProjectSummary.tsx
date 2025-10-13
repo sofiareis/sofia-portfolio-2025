@@ -9,7 +9,7 @@ const ProjectSummary = ({
   technologies,
 }: CardProps) => {
   return (
-    <div className="md:grid md:grid-cols-2 md:gap-5 flex flex-col">
+    <div className="md:grid md:grid-cols-2 md:gap-5 flex flex-col py-3">
       <img
         src={imageSrc}
         alt={`project-summary-${title}`}

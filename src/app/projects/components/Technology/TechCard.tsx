@@ -22,7 +22,7 @@ const TechCard = ({
       className={`card shadow-lg shadow-accent py-6 ring-1 px-8`}
       style={{ backgroundColor: cardColor, color: textColor }}
     >
-      <p className="text-2xl font-semibold mb-4 text-center">{title}</p>
+      <h2 className="mb-4 text-center">{title}</h2>
       <div
         className="flex gap-2 flex-wrap md:grid md:gap-0 md:grid-rows-1 md:justify-center"
         style={{ color: badgeTextColor }}
