@@ -11,7 +11,7 @@ const ProjectInspo = (project: ProjectInspiration) => {
         color: project.textcolor,
       }}
     >
-      <div className="w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5">
+      <div className="project-layout">
         <div className="flex flex-col md:flex-row md:items-center md:justify-start">
           <div className="flex flex-col md:mr-10">
             <h2 className="mb-4">The Inspiration</h2>
