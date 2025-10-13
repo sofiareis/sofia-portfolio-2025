@@ -10,11 +10,26 @@ const WorkExperience = () => {
           </p>
           <p className="mt-1 mb-4">{info.wheredate}</p>
           <ul className="list-[square] pl-5">
-            {info.description.map((list, indexDescription) => (
-              <li key={indexDescription} className="pb-2.5">
-                {list}
-              </li>
-            ))}
+            {info.description.map((list, indexDescription) =>
+              typeof list !== "string" ? (
+                <div key={indexDescription}>
+                  <li key={indexDescription} className="pb-2.5">
+                    {list.main}
+                  </li>
+                  <ul className="list-disc list-inside pl-4">
+                    {list.bullets.map((bullet, indexBullet) => (
+                      <li key={indexBullet} className="pb-2.5">
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <li key={indexDescription} className="pb-2.5">
+                  {list}
+                </li>
+              )
+            )}
           </ul>
           <div className="max-w-none">
             <ul className="list-none flex flex-wrap m-0 p-0">

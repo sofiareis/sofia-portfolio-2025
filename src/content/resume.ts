@@ -9,10 +9,15 @@ export interface Skills {
   skills: string[];
 }
 
+type workDescription = {
+  main: string;
+  bullets: string[];
+};
+
 export interface Work {
   heading: string;
   wheredate: string;
-  description: string[];
+  description: (string | workDescription)[];
   skills: string[];
 }
 
@@ -39,42 +44,84 @@ export const skillSet: Skills[] = [
       "C++",
     ],
   },
-
   {
     heading: "Backend",
     skills: [
       "Node.js",
+      "Express.js",
+      "NestJS",
       "Flask",
       "SQL",
+      "PostgreSQL",
+      "MongoDB",
       "GraphQL",
       "Prisma",
       "Firebase",
-      "MongoDB",
-      "Express.js",
-      "NestJS",
     ],
   },
-
   {
     heading: "Frontend",
     skills: [
       "React",
+      "Next.js",
       "React Native",
       "Flutter",
-      "Material UI",
       "Tailwind CSS",
       "SCSS",
       "Redux",
+      "Material UI",
+      "DaisyUI",
     ],
   },
-
   {
     heading: "Tools",
-    skills: ["Git", "Figma", "Jira", "Jest", "Cypress", "Squish", "Airtable"],
+    skills: [
+      "Git",
+      "Figma",
+      "Jira",
+      "Jest",
+      "Cypress",
+      "Squish",
+      "Airtable",
+      "Baserow",
+    ],
   },
 ];
 
 export const work: Work[] = [
+  {
+    heading: "Software Developer",
+    wheredate: "Svante | January 2024 – Current",
+    description: [
+      "Sole developer responsible for end-to-end software development: gathering requirements, UX/UI design, architecture, full-stack implementation, testing, deployment, and continuous improvements.",
+      {
+        main: "Designed and built a full-stack simulation platform using React, Next.js, Tailwind CSS, Node.js, Express, and PostgreSQL, integrating with the company’s MATLAB models by spawning them as child processes via Node.js.",
+        bullets: [
+          "The platform powered the company’s cutting-edge carbon capture research, running MATLAB-based simulations of physical and chemical parameters and making results accessible through a modern and intuitive web interface.",
+          "Implemented real-time graph visualization with Socket.IO, reducing simulation validation time by hours per day by allowing users to stop unproductive runs early.",
+          "Streamlined setup workflows by introducing pre-filled defaults, material databases, and unit conversion tools, reducing simulation setup time by 60% compared to manual MATLAB scripting, according to user feedback.",
+          "Developed a PostgreSQL database for storing and retrieving simulation inputs/outputs, with features for re-plotting results, exporting to Excel/JSON, and running parallel batch simulations. This enabled users to replot results instantly without locating .mat files or writing custom plotting scripts.",
+          "Integrated Microsoft Authentication Library (MSAL) for secure employee authentication with existing accounts.",
+          "Established APIs with Baserow, optimizing workflows across the organization.",
+          "Developed collaboration features such as built-in result sharing and a visualization tool for external .mat files, saving researchers hours in data preparation and presentation tasks.",
+          "Achieved significant cost savings by using MATLAB executables, eliminating the need for multiple MATLAB licenses.",
+        ],
+      },
+    ],
+    skills: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "CSS",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Baserow",
+      "Socket.IO",
+    ],
+  },
   {
     heading: "Software Developer (Web and Mobile) – Co-op",
     wheredate: "Ensemble Systems | January 2022 – August 2022",
@@ -88,7 +135,7 @@ export const work: Work[] = [
     ],
     skills: [
       "JavaScript",
-      "ReactJS",
+      "React",
       "TypeScript",
       "CSS",
       "GraphQL",
