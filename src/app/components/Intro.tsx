@@ -40,7 +40,7 @@ const Intro = () => {
 
   //or 7E8D85
   return (
-    <section className="flex flex-col md:flex-row items-center bg-[#864654] rounded-2xl py-4 px-2 md:bg-transparent md:rounded-none md:py-0 md:px-0">
+    <section className="flex flex-col md:flex-row items-center py-4 md:py-0 px-0">
       <div className="flex flex-col sm:mr-5 md:text-start">
         <motion.h1
           className=""
