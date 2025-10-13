@@ -15,7 +15,7 @@ const ProjectPage = () => {
   }
   return (
     <div className="">
-      <div className="z-[1] w-full max-w-[1400px] mx-auto py-12 pb-8 md:py-20 md:pb-15 md:px-10 px-5">
+      <div className="main-layout z-[1] py-12 pb-8 md:py-20 md:pb-15">
         {projectBanner[project]}
       </div>
       <ProjectInspo {...projectsMap[project].inspiration} />

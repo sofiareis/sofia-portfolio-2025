@@ -1,10 +1,10 @@
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/content/projects-card";
 
-function Loading() {
+function Projects() {
   return (
     <div className="flex justify-center">
-      <div className="z-[1] flex w-full max-w-[1400px] flex-col mx-auto py-15 md:py-20 md:px-10 px-5">
+      <div className="main-layout z-[1] flex flex-col py-15 md:py-20">
         <div className="flex flex-col items-center">
           <h2 className="mb-8 md:mb-15">My Projects</h2>
           <div className="grid gap-5 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center">
@@ -27,4 +27,4 @@ function Loading() {
   );
 }
 
-export default Loading;
+export default Projects;

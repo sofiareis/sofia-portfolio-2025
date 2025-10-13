@@ -67,24 +67,6 @@ body {
   }
 }
 
-.clip-top {
-  clip-path: polygon(0 30%, 100% 10%, 100% 75%, 0 95%);
-  transform: rotatey(180deg);
-}
-
-.clip-bottom-inverse {
-  clip-path: polygon(0 70%, 100% 60%, 100% 35%, 0 45%);
-}
-
-.clip-bottom {
-  clip-path: polygon(0 60%, 100% 80%, 100% 100%, 0 100%);
-}
-
-.clip-top-inverse {
-  clip-path: polygon(0 60%, 100% 80%, 100% 100%, 0 100%);
-  transform: rotate(180deg);
-}
-
 .btn-primary {
   @apply bg-primary text-white hover:bg-primaryHover;
 }
@@ -99,4 +81,16 @@ body {
 
 .card.square-none {
   border-radius: 0 !important;
+}
+
+.main-layout {
+  @apply w-full max-w-[1400px] mx-auto px-5 md:px-10;
+}
+
+.main-title {
+  @apply mb-5 md:mb-10 text-center;
+}
+
+.project-layout {
+  @apply w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5;
 }
