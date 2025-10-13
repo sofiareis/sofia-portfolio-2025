@@ -64,7 +64,7 @@
   border-radius: 50%;
 }
 .embla__dot:after {
-  box-shadow: inset 0 0 0 0.2rem rgb(208, 199, 206);
+  box-shadow: inset 0 0 0 0.2rem rgb(208, 207, 207);
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
@@ -73,5 +73,5 @@
   content: "";
 }
 .embla__dot--selected:after {
-  box-shadow: inset 0 0 0 0.2rem #ac626f;
+  box-shadow: inset 0 0 0 0.2rem var(--dot-color);
 }

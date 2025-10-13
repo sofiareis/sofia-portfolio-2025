@@ -4,7 +4,13 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { DotButton, useDotButton } from "./CarouselDots";
 
-export default function ImageCarousel({ images }: { images: string[] }) {
+export default function ImageCarousel({
+  images,
+  color,
+}: {
+  images: string[];
+  color: string;
+}) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
 
   const scrollPrev = useCallback(() => {
@@ -37,14 +43,16 @@ export default function ImageCarousel({ images }: { images: string[] }) {
       <div className="embla__controls">
         <div className="embla__buttons">
           <button
-            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer border-2 rounded-xl"
+            className={`flex items-center justify-center hover:cursor-pointer border-2 rounded-xl`}
             onClick={scrollPrev}
+            style={{ color: color }}
           >
             <span className="iconify lucide--chevron-left md:size-7 size-5" />
           </button>
           <button
-            className="flex items-center justify-center text-primary hover:text-secondary hover:cursor-pointer border-2 rounded-xl"
+            className="flex items-center justify-center hover:cursor-pointer border-2 rounded-xl"
             onClick={scrollNext}
+            style={{ color: color }}
           >
             <span className="iconify lucide--chevron-right md:size-7 size-5" />
           </button>
@@ -52,6 +60,7 @@ export default function ImageCarousel({ images }: { images: string[] }) {
         <div className="embla__dots">
           {scrollSnaps.map((_, index) => (
             <DotButton
+              style={{ "--dot-color": color } as React.CSSProperties}
               key={index}
               onClick={() => onDotButtonClick(index)}
               className={"embla__dot".concat(
