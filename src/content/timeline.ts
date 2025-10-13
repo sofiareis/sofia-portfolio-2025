@@ -7,7 +7,7 @@ export const timeline: CareerTimeline[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  ",
     achievements: ["wooow", "wiii", "wiii", "wiii"],
-    technology: ["React", "NodeJS", "NextJS"],
+    technology: ["React", "Node.js", "Next.js"],
   },
   {
     company: "Ensemble Systems",
@@ -15,7 +15,7 @@ export const timeline: CareerTimeline[] = [
     description:
       "I had the opportunity to improve my skills during my internship at Ensemble Systems, where I worked with mobile and web development. On the frontend, I developed my skills using technologies like React, JavaScript, TypeScript, and Tailwind CSS and gained valuable insights into developing user-friendly software solutions. On the backend, I leveraged technologies such as Node.js, GraphQL, NestJS, and Prisma to build a full-stack internal platform that now serves over 200 employees. Moreover, by working with Flutter, I enhanced my mobile development abilities and worked with cross-platform support by writing native Android (Kotlin) and iOS (Swift) code.",
     achievements: ["wooow", "wiii", "wiii", "aaaaaaa"],
-    technology: ["React", "NodeJS", "Tailwind"],
+    technology: ["React", "Node.js", "Tailwind"],
   },
   {
     company: "Ansys",

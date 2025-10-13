@@ -5,15 +5,15 @@ export type techSquare = {
 
 export const technologies_small: techSquare[] = [
   {
-    tech: "ReactJS",
+    tech: "React",
     img: "images/tech-logo/react.png",
   },
   {
-    tech: "NextJS",
+    tech: "Next.js",
     img: "images/tech-logo/nextjs.svg",
   },
   {
-    tech: "NodeJS",
+    tech: "Node.js",
     img: "images/tech-logo/nodejs.svg",
   },
   {
@@ -21,7 +21,7 @@ export const technologies_small: techSquare[] = [
     img: "images/tech-logo/tailwind.svg",
   },
   {
-    tech: "ExpressJS",
+    tech: "Express.js",
     img: "images/tech-logo/expressjs.svg",
   },
   {

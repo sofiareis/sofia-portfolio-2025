@@ -34,11 +34,11 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [SHARITY]: {
-    backgroundcolor: "#739AAB",
+    backgroundcolor: "#D38796",
     descriptionArray: [
       {
         description:
-          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and period products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist. They  also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations. On the charities side, organizations can swipe left and right on donation items they wish accept or decline. They may chat with users about donation pickup/drop-off information and organizations can also edit their account and donation wishlist.",
+          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and period products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist. They also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations.",
         img: [
           `${imageSrc}/sharity/description/landing.png`,
           `${imageSrc}/sharity/description/user1.png`,
@@ -46,6 +46,12 @@ export const projectDescription: Record<string, ProjectDescription> = {
           `${imageSrc}/sharity/description/user3.png`,
           `${imageSrc}/sharity/description/user4.png`,
           `${imageSrc}/sharity/description/user5.png`,
+        ],
+      },
+      {
+        description:
+          "On the charities side, organizations can swipe left and right on donation items they wish accept or decline. They may chat with users about donation pickup/drop-off information and organizations can also edit their account and donation wishlist.",
+        img: [
           `${imageSrc}/sharity/description/charity1.png`,
           `${imageSrc}/sharity/description/charity2.png`,
           `${imageSrc}/sharity/description/charity3.png`,
@@ -105,7 +111,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "The application also automatically generate individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case. Including their current medications and diagnoses information, cross examination of medications and diagnoses against the population, free-text notes, non-medical interventions, and root causes.",
+          "The application also automatically generate individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case, including their current medications and diagnoses information, cross examination of medications and diagnoses against the population, free-text notes, non-medical interventions, and root causes.",
 
         img: [
           `${imageSrc}/patientviz/desc6.png`,
@@ -151,7 +157,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     ],
   },
   [ONEPIECE]: {
-    backgroundcolor: "#B6AC90",
+    backgroundcolor: "#2C2B5B",
     descriptionArray: [
       {
         description:
