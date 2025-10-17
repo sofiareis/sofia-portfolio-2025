@@ -73,9 +73,8 @@ const Intro = () => {
           </AnimatePresence>
         </div>
         <p className="text-base md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam
+          I'm a computer engineer from The University of British Columbia with a
+          passion for full stack software development
         </p>
 
         <motion.div
@@ -106,15 +105,15 @@ const Intro = () => {
       </div>
 
       <motion.div
-        className="self-auto md:ml-10 md:mb-0 mt-2"
+        className="self-auto md:ml-10 md:mb-0 mt-3"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.6 }}
       >
         <img
-          src="/images/sofia/Rectangle.png"
+          src="/images/sofia/sofia-4.jpeg"
           alt="Sofia"
-          className="lg:max-w-[450px] md:max-w-[350px] sm:max-w-[300px] max-w-[220px]"
+          className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-auto w-auto rounded-3xl"
         />
       </motion.div>
     </section>
