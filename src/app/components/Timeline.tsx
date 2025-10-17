@@ -24,7 +24,7 @@ const itemVariants = {
 const Timeline = () => {
   return (
     <motion.ul
-      className="relative list-none md:pl-10 pl-5 mb-16"
+      className="relative list-none md:pl-10 pl-4 mb-16"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"

@@ -10,7 +10,7 @@ const TimelineCard = ({
   return (
     <div
       className="hover:backdrop-blur-sm transition-transform duration-300 ease-out
-    hover:scale-101 hover:shadow-2xl  bg-white/19 shadow-lg backdrop-blur-md text-start md:px-10 md:py-10 px-5 py-6 rounded-[60]"
+    hover:scale-101 hover:shadow-2xl  bg-white/19 shadow-lg backdrop-blur-md text-start md:px-10 md:py-10 px-5 py-6 rounded-[50]"
     >
       <h3>{company}</h3>
       <h3>{date}</h3>

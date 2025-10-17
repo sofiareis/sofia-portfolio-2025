@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute top-200 md:top-290 lg:top-270 left-0 right-0 h-[500px] md:h-[700px] bg-[#7E8D85] transform skew-y-[-9deg] origin-top-left shadow-xl shadow-black/35 z-2" />
         <div className="relative h-screen flex items-center z-10">
           <div className="w-full h-[500px] md:h-[700px] bg-primary transform skew-y-[9deg] origin-top-left shadow-xl shadow-black/35 z-0">
-            <section className="overflow-hidden h-full skew-y-[-9deg] z-10">
+            <section className=" h-full skew-y-[-9deg] z-10">
               <div className="main-layout min-h-[600px] flex flex-col items-center justify-center text-white text-center">
                 <Intro />
               </div>
