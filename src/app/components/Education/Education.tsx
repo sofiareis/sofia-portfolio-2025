@@ -7,10 +7,7 @@ const Education = () => {
       <div className="main-layout my-10">
         <div className="text-center">
           <h2 className="main-title">Education</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            ac felis hendrerit, interdum nisl sit amet, sagittis sapien.
-          </p>
+          <p>A summary of my education and certificates</p>
         </div>
         <div className="flex flex-col items-center my-10">
           {education.map((value, index) => (

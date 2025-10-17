@@ -8,8 +8,9 @@ const MyProjects = () => {
         <div className="text-center">
           <h2 className="main-title">My Projects</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            ac felis hendrerit, interdum nisl sit amet, sagittis sapien.
+            Some of my personal and hackathon projects. Click on "Learn more" to
+            see the full description of a project and "View all projects" to see
+            all my apps.
           </p>
         </div>
         <ProjectSlider />
