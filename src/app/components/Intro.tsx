@@ -111,7 +111,7 @@ const Intro = () => {
         transition={{ duration: 1.2, delay: 0.6 }}
       >
         <img
-          src="/images/sofia/sofia-4.jpeg"
+          src="/images/sofia/sofia-5.jpg"
           alt="Sofia"
           className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-auto w-auto rounded-3xl"
         />
