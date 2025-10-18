@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export interface CardProps {
   title: string;
   description: string;
@@ -18,7 +20,7 @@ export interface Project {
 export interface CareerTimeline {
   company: string;
   date: string;
-  description: string;
+  description: JSX.Element;
   achievements?: string[];
   technology?: string[];
 }
