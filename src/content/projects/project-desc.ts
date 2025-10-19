@@ -37,7 +37,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and period products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built in maps function and they can also view each shelter’s donation wishlist. They also have access to the Period Positivity fundraiser, in which funds go towards purchasing period products for local Vancouver organizations.",
+          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and personal hygiene products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built-in maps function, and can view each shelter’s donation wishlist. Users also have access to the Period Positivity fundraiser, where funds go towards purchasing personal hygiene products for local Vancouver organizations.",
         img: [
           `${imageSrc}/sharity/description/landing.png`,
           `${imageSrc}/sharity/description/user1.png`,
@@ -49,7 +49,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "On the charities side, organizations can swipe left and right on donation items they wish accept or decline. They may chat with users about donation pickup/drop-off information and organizations can also edit their account and donation wishlist.",
+          "On the charities' side, organizations can swipe left to decline and right to accept donation items offered by the community, and edit their preferences and donation wishlist. They are also able to chat with users about donation pickup/drop-off information.",
         img: [
           `${imageSrc}/sharity/description/charity1.png`,
           `${imageSrc}/sharity/description/charity2.png`,
@@ -98,7 +98,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "PatientViz allows the clinician to import patient intake form responses into the application, and visualize this data against the clinic’s patient population. Also, users are able to filter the data to be visualized by conditional subpopulations (e.g. patients taking certain medications, patients with a certain set of symptoms, etc.). Analytical statistics such as the correlation between medications and diagnoses within the clinic’s population are also presented in a drill-down view.",
+          "PatientViz allows the physician to import patient intake form responses, and visualize this data against the clinic’s patient pool. Also, users are able to filter the data to be visualized by conditional subpopulations (e.g. patients taking certain medications, patients with a certain set of symptoms, etc.). Analytical statistics such as the correlation between medications and diagnoses within the clinic’s population are also presented in a drill-down view.",
 
         img: [
           `${imageSrc}/patientviz/desc1.png`,
@@ -110,7 +110,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "The application also automatically generate individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case, including their current medications and diagnoses information, cross examination of medications and diagnoses against the population, free-text notes, non-medical interventions, and root causes.",
+          "The application also automatically generates individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case, including their current medications and diagnoses information, cross examination of that data against the population to identify trends, free-text notes, non-medical interventions, and root causes.",
 
         img: [
           `${imageSrc}/patientviz/desc6.png`,
@@ -143,7 +143,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "The app name was chosen to represent the fact that it helps refugees as they start a new life in a new country, hence renew. It app features a community function where users are grouped into communities based on where they came from and where they have immigrated to. Within these communities, users can post and comment about any questions or resources for users to learn from each other. Additionally, there is a map feature which filters for nearby food banks, hospitals, and areas with recent criminal activity.",
+          '\"Renew\" is a community-based app where users can find a support network with individuals from their country of origin, wherever they may find themselves. Within these communities users can connect, post, and comment questions or resources. Additionally, there is a map feature that filters for nearby food banks, hospitals, and unsafe areas.',
         img: [
           `${imageSrc}/renew/desc1.png`,
           `${imageSrc}/renew/desc2.png`,
@@ -160,7 +160,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "The web app has a Search page that shows all the existing cards and a filter feature that users can use to find any specific cards they want. From the Search page, users can add a card to their collection or to their wishlist. If they already have that card a warning will appear letting them know.",
+          "The web app has a Search page that shows all the existing cards and a filter feature that users can use to find any specific cards they want. From the Search page, users can add a card to their collection or to their wishlist. If they already have that card a notification will appear letting them know.",
 
         img: [
           `${imageSrc}/onepiece/filter.png`,
@@ -171,7 +171,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "On the Collection page, users can see their collection, change the quantity of cards, and delete cards.\nThe Missing page has all the cards the user dont have (based on their collection). From there they can move a card to their collection (which would delete the card from the Missing page) or to their wishlist (which wont change the state of the missing cards)",
+          "On the Collection page, users can see their collection, change the quantity of cards, and delete cards.\nThe Missing page shows all the cards the user doesn't have (based on their collection). From there, they can move a card to their collection (which would delete the card from the Missing page) or to their wishlist (which desn't change the state of the missing cards)",
         img: [
           `${imageSrc}/onepiece/collection.png`,
           `${imageSrc}/onepiece/missing.png`,

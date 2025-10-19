@@ -15,7 +15,7 @@ const ProjectInspo = (project: ProjectInspiration) => {
         <div className="flex flex-col md:flex-row md:items-center md:justify-start">
           <div className="flex flex-col md:mr-10">
             <h2 className="mb-4">The Inspiration</h2>
-            <p className="leading-relaxed">{project.inspo}</p>
+            <div className="leading-relaxed">{project.inspo}</div>
             <div className="mt-4 flex flex-wrap gap-3">
               {project.githubLink && (
                 <CodeChip

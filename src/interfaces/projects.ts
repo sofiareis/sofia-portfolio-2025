@@ -1,5 +1,7 @@
+import { JSX } from "react";
+
 export type ProjectInspiration = {
-  inspo: string;
+  inspo: JSX.Element;
   img: string;
   backgroundcolor: string;
   textcolor: string;

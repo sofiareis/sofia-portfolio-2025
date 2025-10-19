@@ -34,7 +34,7 @@ export const projects: CardProps[] = [
   {
     title: "Renew",
     description:
-      "(cmd-f Hackathon 2022) A mobile app designed to provide support and resources for immigrants in a new country",
+      "(cmd-f Hackathon 2022) A mobile app designed to provide support and resources for immigrants",
     imageSrc: "/images/projects/Renew-mock.png",
     page: "renew",
     technologies: ["TypeScript", "React Native", "Node.js"],
@@ -43,7 +43,7 @@ export const projects: CardProps[] = [
   {
     title: "PatientViz",
     description:
-      "A desktop app to help physicians of the BC Children’s Hospital with the triage process of patients",
+      "A desktop app to help physicians of the BC Children’s Hospital with the triage process",
     imageSrc: "/images/projects/PatientViz-mock.png",
     page: "patientviz",
     technologies: ["JavaScript", "React", "Electron"],
@@ -52,7 +52,7 @@ export const projects: CardProps[] = [
   {
     title: "Moko",
     description:
-      "(Pinnacle Hackathon 2021) A mobile app that allows users to buy and sell fresh produce within their local communities",
+      "(Pinnacle Hackathon 2021) A mobile app that allows users to buy and sell fresh produce to their local communities",
     imageSrc: "/images/projects/Moko-mock.png",
     page: "moko",
     technologies: ["JavaScript", "React Native", "Node.js"],
@@ -105,4 +105,4 @@ export const projects: CardProps[] = [
     */
 ];
 
-export const projectsSummary = projects.slice(0, 4);
+export const projectsSummary = projects;

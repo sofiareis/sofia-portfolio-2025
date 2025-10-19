@@ -21,7 +21,7 @@ export const projectPrizes: Record<string, ProjectPrizes> = {
     prizes: [
       {
         prize: "Pinnacle Prize - cmd-f Hackathon 2021 Winner",
-        description: `Each winning team member will receive tickets to Pinnacle, which invites the world's top 50 collegiate hackathons for an epic finale event in fall 2021.`,
+        description: `Each winning team member received tickets to Pinnacle, which invited the world's top 50 collegiate hackathons for an epic finale event in fall 2021.`,
         logo: `${imageSrc}/sharity/${logoFolder}/pinnacle-logo.png`,
       },
       {
@@ -31,7 +31,7 @@ export const projectPrizes: Record<string, ProjectPrizes> = {
       },
       {
         prize: "Hootsuite - #SocialForGood Award",
-        description: `Create a project that makes a positive social impact on how we communicate in today’s connected world."`,
+        description: `Create a project that makes a positive social impact on how we communicate in today’s connected world.`,
         logo: `${imageSrc}/sharity/${logoFolder}/hootsuite-logo.png`,
       },
     ],
