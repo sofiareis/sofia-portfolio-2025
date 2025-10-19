@@ -7,11 +7,6 @@ const MyProjects = () => {
       <div className="main-layout my-10">
         <div className="text-center">
           <h2 className="main-title">My Projects</h2>
-          <p>
-            Some of my personal and hackathon projects. Click on &quot;Learn
-            more&quot; to see the full description of a project and &quot;View
-            all projects&quot; to see all my apps.
-          </p>
         </div>
         <ProjectSlider />
         <Link href="/projects">

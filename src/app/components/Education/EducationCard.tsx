@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 const EducationCard = ({
   title,
   subtitle,
@@ -6,7 +8,7 @@ const EducationCard = ({
 }: {
   title: string;
   subtitle: string;
-  description: string;
+  description: JSX.Element;
   logo: string;
 }) => {
   return (
@@ -19,7 +21,7 @@ const EducationCard = ({
         <div className="flex flex-col">
           <h3>{title}</h3>
           <h3>{subtitle}</h3>
-          <p className="mt-3">{description}</p>
+          <div className="mt-3">{description}</div>
         </div>
       </div>
       <div className="md:hidden md:invisible flex flex-col">
@@ -29,7 +31,7 @@ const EducationCard = ({
         </div>
         <div className="flex flex-col">
           <h3>{subtitle}</h3>
-          <p className="md:mt-3 mt-1">{description}</p>
+          <div className="md:mt-3 mt-1">{description}</div>
         </div>
       </div>
     </div>

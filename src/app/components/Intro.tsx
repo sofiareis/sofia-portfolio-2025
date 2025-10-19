@@ -73,8 +73,8 @@ const Intro = () => {
           </AnimatePresence>
         </div>
         <p className="text-base md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
-          I am a computer engineer from The University of British Columbia with
-          a passion for full stack software development
+          I am a computer engineer with a passion for full stack software
+          development
         </p>
 
         <motion.div
