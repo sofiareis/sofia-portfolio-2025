@@ -2,15 +2,15 @@ import { CareerTimeline } from "@/interfaces/interfaces";
 
 export const timeline: CareerTimeline[] = [
   {
-    company: "Svante Inc.",
+    company: "Svante Inc. - Software Developer",
     date: "January 2024 - Current",
     description: (
       <>
         <p>
           At Svante, I work as the sole developer on full-stack projects,
           gaining experience across the entire software lifecycle. One of my
-          main projects is a simulation platform that supports cutting-edge
-          carbon capture research.
+          main projects is the development of a simulation platform that
+          supports cutting-edge carbon capture research.
         </p>
         <br />
         <p>
@@ -29,7 +29,7 @@ export const timeline: CareerTimeline[] = [
           I expanded my end-to-end development skills. Through these
           experiences, I was able to learn how to scale and modernize technology
           stacks, optimize projects, and, most importantly, deliver tools that
-          put the users first.
+          put the user&apos;s needs first.
         </p>
       </>
     ),
@@ -48,23 +48,28 @@ export const timeline: CareerTimeline[] = [
     ],
   },
   {
-    company: "Ensemble Systems - Co-op",
+    company: "Ensemble Systems - Software Developer (Co-op)",
     date: "January 2022 – August 2022",
     description: (
-      <p>
-        I had the opportunity to improve my skills during my internship at
-        Ensemble Systems, where I worked with mobile and web development. On the
-        frontend, I developed my skills using technologies like React,
-        JavaScript, TypeScript, and Tailwind CSS and gained valuable insights
-        into developing user-friendly software solutions. On the backend, I
-        leveraged technologies such as Node.js, GraphQL, NestJS, and Prisma to
-        build a full-stack internal platform that now serves over 200 employees.
-        Moreover, by working with Flutter, I enhanced my mobile development
-        abilities and worked with cross-platform support by writing native
-        Android (Kotlin) and iOS (Swift) code.
-      </p>
+      <>
+        <p>
+          I had the opportunity to improve my skills during my internship at
+          Ensemble Systems, where I worked with mobile and web development.
+        </p>
+        <br />
+        <p>
+          On the frontend, I developed my skills using technologies like React,
+          JavaScript, TypeScript, and Tailwind CSS and gained valuable insights
+          into developing user-friendly software solutions. On the backend, I
+          leveraged technologies such as Node.js, GraphQL, NestJS, and Prisma to
+          build a full-stack internal platform that now serves over 200
+          employees. Moreover, by working with Flutter, I enhanced my mobile
+          development abilities and worked with cross-platform support by
+          writing native Android (Kotlin) and iOS (Swift) code.
+        </p>
+      </>
     ),
-    achievements: ["wooow", "wiii", "wiii", "aaaaaaa"],
+    achievements: [],
     technology: [
       "JavaScript",
       "React",
@@ -81,21 +86,27 @@ export const timeline: CareerTimeline[] = [
     ],
   },
   {
-    company: "Ansys - Co-op",
+    company: "Ansys - R&D Verification Engineer (Co-op)",
     date: "May 2021 – December 2021",
     description: (
-      <p>
-        My role as an R&D verification engineer at Ansys provided me with
-        software testing skills and I further increased my programming
-        abilities, particularly in Python. My primary responsibility was
-        developing and maintaining automated tests in Python to ensure the
-        reliability and quality of their Lumerical simulation software. In
-        addition to automation, I delved into regression testing using the
-        Squish testing tool and performed manual testing on release candidate
-        software builds. I was able to improve my teamwork skills as I
-        frequently engaged with cross-functional engineering teams to replicate
-        and troubleshoot customer issues.
-      </p>
+      <>
+        <p>
+          My role as an R&D verification engineer at Ansys provided me with
+          software testing skills and I further increased my programming
+          abilities, particularly in Python.
+        </p>
+        <br />
+        <p>
+          My primary responsibility was developing and maintaining automated
+          tests in Python to ensure the reliability and quality of their
+          Lumerical simulation software. In addition to automation, I delved
+          into regression testing using the Squish testing tool and performed
+          manual testing on release candidate software builds. I was able to
+          improve my teamwork skills as I frequently engaged with
+          cross-functional engineering teams to replicate and troubleshoot
+          customer issues.
+        </p>
+      </>
     ),
     technology: [
       "Python",
@@ -106,7 +117,8 @@ export const timeline: CareerTimeline[] = [
     ],
   },
   {
-    company: "UBC Integrated Renewal Program (IRP) - Co-op",
+    company:
+      "UBC Integrated Renewal Program (IRP) - Learning Rover Team Lead (Co-op)",
     date: "June 2020 – December 2020",
     description: (
       <p>
@@ -114,9 +126,10 @@ export const timeline: CareerTimeline[] = [
         management and Python skills by creating Python scripts for Airtable,
         updating the UBC employee database. Using this data, I crafted Excel
         graphs to effectively communicate key information to stakeholders.
-        Additionally, I led a team of 4 Co-op students to assist UBC staff in
-        using Workday, overseeing task assignments, offering constructive
-        feedback, and addressing issues, which increased my leadership skills.
+        Additionally, I led a team of 4 other Co-op students to assist UBC staff
+        in using the newly implemented Workday platform, overseeing task
+        assignments, offering constructive feedback, and addressing issues,
+        which increased my leadership and client relationship skills.
       </p>
     ),
     technology: ["Python", "Airtable"],
