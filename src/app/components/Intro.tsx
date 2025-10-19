@@ -1,7 +1,7 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from "@/content/links";
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion, Variants } from "motion/react";
 import { useEffect, useState } from "react";
 
 const containerVariants = {
@@ -13,7 +13,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
@@ -73,8 +73,8 @@ const Intro = () => {
           </AnimatePresence>
         </div>
         <p className="text-base md:text-xl lg:text-2xl max-w-xl md:text-left font-semibold">
-          I'm a computer engineer from The University of British Columbia with a
-          passion for full stack software development
+          I am a computer engineer from The University of British Columbia with
+          a passion for full stack software development
         </p>
 
         <motion.div

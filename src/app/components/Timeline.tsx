@@ -1,6 +1,6 @@
 "use client";
 import { timeline } from "@/content/timeline";
-import { motion } from "motion/react";
+import { motion, Variants } from "motion/react";
 import TimelineCard from "./TimelineCard";
 
 const containerVariants = {
@@ -12,7 +12,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, x: -30 },
   visible: {
     opacity: 1,

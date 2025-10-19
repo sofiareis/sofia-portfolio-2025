@@ -1,5 +1,4 @@
 import { CareerTimeline } from "@/interfaces/interfaces";
-import { technologies } from "./technologies";
 
 export const timeline: CareerTimeline[] = [
   {

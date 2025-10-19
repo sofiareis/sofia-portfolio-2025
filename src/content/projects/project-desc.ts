@@ -11,7 +11,6 @@ import {
 } from "../string";
 
 const imageSrc = "/images/projects";
-const logoFolder = "prize-logo";
 
 export const projectDescription: Record<string, ProjectDescription> = {
   [MOKO]: {

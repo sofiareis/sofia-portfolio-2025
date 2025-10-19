@@ -3,7 +3,11 @@ import { projectsSummary } from "@/content/projects-card";
 import ProjectSummary from "./ProjectSummary";
 import Slider from "react-slick";
 
-function SampleNextArrow(props) {
+interface CustomArrowProps {
+  onClick?: () => void;
+}
+
+function SampleNextArrow(props: CustomArrowProps) {
   const { onClick } = props;
   return (
     <button
@@ -18,7 +22,7 @@ function SampleNextArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
+function SamplePrevArrow(props: CustomArrowProps) {
   const { onClick } = props;
   return (
     <button

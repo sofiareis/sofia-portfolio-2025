@@ -1,14 +1,10 @@
 "use client";
 import { navbarLinks } from "@/content/navbar-links";
-import { useState } from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 import { usePathname } from "next/navigation";
 
 // bg-[linear-gradient(90deg,#BAC3D9_0%,#AC626F_100%)]
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   /* Frame 2 */
 

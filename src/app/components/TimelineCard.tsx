@@ -14,7 +14,7 @@ const TimelineCard = ({
     >
       <h3>{company}</h3>
       <h3>{date}</h3>
-      <p className="mt-4">{description}</p>
+      <div className="mt-4">{description}</div>
       {achievements && achievements.length > 0 && (
         <div className="mt-2">
           <h3>Key Achievements</h3>

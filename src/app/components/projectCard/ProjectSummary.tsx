@@ -1,4 +1,3 @@
-import { CardProps } from "@/interfaces/interfaces";
 import Link from "next/link";
 
 const ProjectSummary = ({
@@ -7,7 +6,13 @@ const ProjectSummary = ({
   imageSrc,
   page,
   technologies,
-}: CardProps) => {
+}: {
+  title: string;
+  description: string;
+  imageSrc: string;
+  page: string;
+  technologies: string[];
+}) => {
   return (
     <div className="md:grid md:grid-cols-2 md:gap-5 flex flex-col py-3">
       <img
