@@ -3,7 +3,7 @@ export const education = [
     subtitle: "Bachelor of Applied Science, Computer Engineering",
     title: "University of British Columbia",
     description: <p>Graduated with Distinction</p>,
-    logo: "images/education/ubc-logo2.png",
+    logo: "/images/education/ubc-logo2.png",
   },
   {
     subtitle: "Machine Learning Specialization",
@@ -19,6 +19,6 @@ export const education = [
         <p>- Unsupervised Learning, Recommenders, Reinforcement Learning</p>
       </>
     ),
-    logo: "images/education/deeplearning-logo.svg",
+    logo: "/images/education/deeplearning-logo.svg",
   },
 ];

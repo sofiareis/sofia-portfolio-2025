@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const CodeChip = ({
   title,
   link,
@@ -16,10 +18,12 @@ const CodeChip = ({
         {type == "github" ? (
           <span className="iconify lucide--github size-5" />
         ) : (
-          <img
+          <Image
             src={color == "black" ? "/devpost.svg" : "/devpostWhite.svg"}
-            alt="My Icon"
+            alt={`icon-title`}
             className="w-5 h-5"
+            width={20}
+            height={20}
           />
         )}
       </a>

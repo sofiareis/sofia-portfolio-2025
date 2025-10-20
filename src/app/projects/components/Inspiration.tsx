@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectInspiration } from "@/interfaces/projects";
 import CodeChip from "./CodeChip";
+import Image from "next/image";
 
 const ProjectInspo = (project: ProjectInspiration) => {
   return (
@@ -35,12 +36,14 @@ const ProjectInspo = (project: ProjectInspiration) => {
             </div>
           </div>
           <div className={`flex items-center justify-center mt-8 md:mt-0`}>
-            <img
-              alt=""
+            <Image
+              alt={`project-inspo`}
+              width={400}
+              height={400}
               src={project.img}
               className="lg:max-h-[380px] lg:max-w-[450px] ml-0 rounded-lg drop-shadow-xl drop-shadow-black/30
                            md:max-h-[350px] md:max-w-[350px] 
-                           max-h-[250px] max-w-[300px]"
+                           max-h-[250px] max-w-[300px] w-auto h-auto"
             />
           </div>
         </div>

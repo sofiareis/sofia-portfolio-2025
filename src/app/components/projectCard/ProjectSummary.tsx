@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const ProjectSummary = ({
@@ -15,9 +16,11 @@ const ProjectSummary = ({
 }) => {
   return (
     <div className="md:grid md:grid-cols-2 md:gap-5 flex flex-col py-3">
-      <img
+      <Image
         src={imageSrc}
         alt={`project-summary-${title}`}
+        width={440}
+        height={330}
         className="object-contain w-full max-h-[400px]"
       />
       <div className="flex flex-col">

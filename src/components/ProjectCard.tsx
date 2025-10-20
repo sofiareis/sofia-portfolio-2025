@@ -1,4 +1,5 @@
 import { CardProps } from "@/interfaces/interfaces";
+import Image from "next/image";
 import Link from "next/link";
 
 function ProjectCard({
@@ -14,8 +15,10 @@ function ProjectCard({
     <Link href={`/projects/${page}`}>
       <div className="card max-w-100 bg-base-100 shadow-md group relative overflow-hidden square-none h-full">
         <figure className="relative aspect-[4/3] w-full overflow-hidden">
-          <img
+          <Image
             src={imageSrc}
+            width={400}
+            height={300}
             alt={alt}
             className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
             style={{ backgroundColor: backgroundcolor }}

@@ -10,6 +10,7 @@ import {
   RENEW,
   SHARITY,
 } from "../string";
+import Image from "next/image";
 
 const sharityBanner = (
   <div className="flex md:flex-row flex-col justify-center items-center">
@@ -36,10 +37,12 @@ const sharityBanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1, delay: 0.4 }}
     >
-      <img
+      <Image
         src="/images/projects/sharity/Logo.png"
         alt="sharityLogo"
-        className="lg:max-w-[300px] md:max-w-[200px] max-w-[150px]"
+        width={300}
+        height={290}
+        className="lg:max-w-[300px] md:max-w-[200px] max-w-[150px] h-auto"
       />
     </motion.div>
   </div>
@@ -53,10 +56,12 @@ const careercueBanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1, delay: 0.4 }}
     >
-      <img
+      <Image
+        width={400}
+        height={270}
         src="/images/projects/careercue/Logo.png"
         alt="sharityLogo"
-        className="lg:max-w-[400px] md:max-w-[300px] max-w-[300px]"
+        className="lg:max-w-[400px] md:max-w-[300px] max-w-[300px] h-autp"
       />
     </motion.div>
     <motion.div
@@ -83,10 +88,12 @@ const renewBanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      <img
+      <Image
+        width={350}
+        height={420}
         src="/images/projects/renew/Logo.png"
         alt="sharityLogo"
-        className="lg:max-w-[350px] md:max-w-[300px] max-w-[250px]"
+        className="lg:max-w-[350px] md:max-w-[300px] max-w-[250px] h-auto"
       />
     </motion.div>
     <motion.div
@@ -113,10 +120,12 @@ const patientViz = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      <img
+      <Image
+        width={350}
+        height={280}
         src="/images/projects/patientviz/doctor1.png"
         alt="sharityLogo"
-        className="lg:max-w-[350px] md:max-w-[300px] max-w-[250px]"
+        className="lg:max-w-[350px] md:max-w-[300px] max-w-[250px] h-auto"
       />
     </motion.div>
     <motion.div
@@ -150,10 +159,12 @@ const mokoBanner = (
         Welcome to{" "}
         <span className="inline-flex text-[#6c9c5a] text-4xl md:text-5xl lg:text-6xl">
           Moko
-          <img
+          <Image
+            width={71}
+            height={61}
             src="/images/projects/moko/leaf2.png"
             alt="sharityLogo"
-            className="pl-3"
+            className="pl-3 w-full h-auto"
           />
         </span>
       </p>
@@ -172,10 +183,12 @@ const chessmateBanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      <img
+      <Image
+        width={450}
+        height={190}
         src="/images/projects/chessmate/Logo.png"
         alt="sharityLogo"
-        className="lg:max-w-[450px] md:max-w-[400px] max-w-[300px]"
+        className="lg:max-w-[450px] md:max-w-[400px] max-w-[300px] h-auto"
       />
     </motion.div>
   </div>
@@ -189,10 +202,12 @@ const alacrityBanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1, delay: 0.3 }}
     >
-      <img
+      <Image
+        width={550}
+        height={280}
         src="/images/projects/alacrity/Logo.png"
         alt="sharityLogo"
-        className="lg:max-w-[550px] md:max-w-[450px] max-w-[400px]"
+        className="lg:max-w-[550px] md:max-w-[450px] max-w-[400px] h-auto"
       />
     </motion.div>
   </div>
@@ -206,10 +221,12 @@ const onepiecebanner = (
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
     >
-      <img
+      <Image
+        width={450}
+        height={390}
         src="/images/projects/onepiece/onepiecelogo.png"
         alt="sharityLogo"
-        className="lg:max-w-[450px] md:max-w-[350px] max-w-[250px]"
+        className="lg:max-w-[450px] md:max-w-[350px] max-w-[250px] h-auto"
       />
     </motion.div>
     <motion.div

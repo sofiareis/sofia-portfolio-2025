@@ -48,13 +48,13 @@ export const projectPrizes: Record<string, ProjectPrizes> = {
       {
         prize: "UBC - Project Incubation Prize",
         description: `UBC's CS department selects a team they think will benefit from mentorship to continue working on their project with the guidance of industry mentors.`,
-        logo: `${imageSrc}/renew/${logoFolder}/SAPLogo.png`,
+        logo: `${imageSrc}/renew/${logoFolder}/ubcLogo2.png`,
       },
       {
         prize:
           "SAP - Most Coherent UX/UI Design Using the UI5 SDK and/or Web Components",
         description: `Build the web application with the most coherent UX/UI design using the UI5 SDK and/or web components.`,
-        logo: `${imageSrc}/renew/${logoFolder}/ubcLogo2.png`,
+        logo: `${imageSrc}/renew/${logoFolder}/sap-3.svg`,
       },
     ],
 

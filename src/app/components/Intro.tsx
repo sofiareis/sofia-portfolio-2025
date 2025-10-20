@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from "@/content/links";
 import { AnimatePresence, motion, Variants } from "motion/react";
 import { useEffect, useState } from "react";
-
+import Image from "next/image";
 const containerVariants = {
   hidden: {},
   visible: {
@@ -110,10 +110,12 @@ const Intro = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, delay: 0.6 }}
       >
-        <img
+        <Image
           src="/images/sofia/sofia-5.jpg"
           alt="Sofia"
-          className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-auto w-auto rounded-3xl"
+          width={1490}
+          height={1950}
+          className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-auto w-full rounded-3xl"
         />
       </motion.div>
     </section>

@@ -11,18 +11,10 @@ const Description = (project: ProjectDescription) => {
           {project.descriptionArray.map((value, index) => (
             <div key={index} className={`mb-8 flex flex-col`}>
               <p className={`mb-10`}>{value.description}</p>
-              {value.img.length > 1 ? (
-                <ImageCarousel
-                  images={value.img}
-                  color={project.backgroundcolor}
-                />
-              ) : (
-                <img
-                  src={value.img[0]}
-                  alt={`single`}
-                  className=" justify-self-center h-auto max-h-[400px] w-auto max-w-[350px] rounded-lg shadow-md transition-transform duration-500"
-                />
-              )}
+              <ImageCarousel
+                images={value.img}
+                color={project.backgroundcolor}
+              />
             </div>
           ))}
         </div>

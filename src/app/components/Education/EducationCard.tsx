@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { JSX } from "react";
-
 const EducationCard = ({
   title,
   subtitle,
@@ -17,7 +17,13 @@ const EducationCard = ({
     hover:scale-101 hover:shadow-2xl  bg-white/19 shadow-lg backdrop-blur-md text-start my-5 md:py-8 py-5 px-5 md:rounded-[60] rounded-[35]"
     >
       <div className="hidden invisible md:visible md:grid md:grid-cols-[0.2fr_1fr] md:gap-3">
-        <img src={logo} className="h-[150px] justify-self-center" />
+        <Image
+          alt={`education-${title}`}
+          src={logo}
+          className="h-[150px] w-auto justify-self-center"
+          width={300}
+          height={150}
+        />
         <div className="flex flex-col">
           <h3>{title}</h3>
           <h3>{subtitle}</h3>
@@ -26,7 +32,13 @@ const EducationCard = ({
       </div>
       <div className="md:hidden md:invisible flex flex-col">
         <div className="flex items-center gap-3 mb-5">
-          <img src={logo} className="max-w-6 max-h-6" />
+          <Image
+            alt={`education-${title}`}
+            width={300}
+            height={150}
+            src={logo}
+            className="max-w-6 max-h-6 w-auto"
+          />
           <h3>{title}</h3>
         </div>
         <div className="flex flex-col">
