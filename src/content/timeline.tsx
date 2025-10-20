@@ -2,7 +2,7 @@ import { CareerTimeline } from "@/interfaces/interfaces";
 
 export const timeline: CareerTimeline[] = [
   {
-    company: "Svante Inc. - Software Developer",
+    company: "Svante - Software Developer",
     date: "January 2024 - Current",
     description: (
       <>

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from "@/content/links";
 import { usePathname } from "next/navigation";
 import { motion } from "motion/react";
+import { projectFooter } from "@/content/projects/project-footer";
 const FooterChild = () => {
   return (
     <div className="text-center text-[1.2rem] font-semibold p-5 z-10">
@@ -37,6 +38,9 @@ const FooterChild = () => {
 const Footer = () => {
   const path = usePathname();
 
+  const projectPath = path.includes("/projects/")
+    ? path.split("/projects/")[1]
+    : null;
   return path == "/" ? (
     <div className="mt-10 flex items-center justify-center inset-0 bg-primary transform skew-y-[-7deg] origin-top-left z-0 ">
       <div className="relative z-10 text-white skew-y-[7deg] my-10">
@@ -44,7 +48,14 @@ const Footer = () => {
       </div>
     </div>
   ) : (
-    <div className="bg-primary text-white">
+    <div
+      className="bg-primary text-white"
+      style={
+        projectPath
+          ? { backgroundColor: projectFooter[projectPath] }
+          : { backgroundColor: "#ac626f" }
+      }
+    >
       <FooterChild />
     </div>
   );

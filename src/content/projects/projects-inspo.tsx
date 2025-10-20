@@ -20,8 +20,8 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
           interviews. The entire process can be stressful, and many people
           don&apos;t have the resources to know how to best prepare for the
           questions that may be asked.
-        </p>{" "}
-        <br />{" "}
+        </p>
+        <br />
         <p>
           CareerCue is made for anyone who is looking to improve or polish their
           interview skills, including beginners entering the workforce for the
@@ -44,7 +44,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
         Alacrity is a web app meant to help students manage their time. It
         provides an interface for students to enter their due dates, plan work
         sessions and rearrange those work sessions to spread the work out more
-        evenly.{" "}
+        evenly.
       </p>
     ),
     img: "/images/projects/alacrity/home.png",
@@ -54,19 +54,24 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
   },
   [CHESSMATE]: {
     inspo: (
-      <p>
-        ChessMate is a one player chess engine where the user plays against an
-        AI opponent. Not only can the player play a game of chess, they can save
-        their games to replay for analysis and pause games in the middle of
-        playing. The majority of the processing is done on the ARM chip on the
-        DE1-SoC with rendering and move input being done on an Android phone.
-        The DE1 and the phone are supposed to communicate over Bluetooth. This
-        project aims to attract tech savvy people who are interested in learning
-        how to play chess or improve their existing skill. Our design takes into
-        consideration that not everyone has a pre-existing knowledge of chess,
-        therefore it will perform move validation and automatically prevent
-        illegal moves from being played.{" "}
-      </p>
+      <>
+        <p>
+          ChessMate is a one-player chess engine where the user plays against an
+          AI opponent. Not only can the user play a game of chess, but they can
+          also pause games in the middle of playing and save their games to
+          replay for analysis.
+        </p>
+        <br />
+        <p>
+          The majority of the processing is done on the ARM chip on the DE1-SoC,
+          with rendering and move input being done on an Android phone, with the
+          DE1 and phone communicating over Bluetooth. This project aims to
+          attract tech-savvy people who are interested in learning how to play
+          chess or improve their existing skill. The design incorporates tools
+          to facilitate users with limited skill in the game, performing move
+          validation and automatically preventing illegal moves.
+        </p>
+      </>
     ),
     img: "/images/projects/chessmate/pawn.png",
     backgroundcolor: "#97B6A7",
@@ -76,13 +81,18 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
   },
   [MOKO]: {
     inspo: (
-      <p>
-        Inspired by local farmers markets, moko is an app that aims to promote
-        sustainable development by minimizing CO2 emissions from food
-        transportation and encouraging eating local and fresh produce. Moko also
-        strives to encourage discovery and support for local businesses and
-        foster community bonding.{" "}
-      </p>
+      <>
+        <p>
+          Inspired by local farmers&apos; markets, Moko aims to promote
+          sustainable development by connecting producers directly to consumers.
+        </p>
+        <br />
+        <p>
+          Moko&apos;s mission is to minimize CO2 emissions originating from the
+          logistics around food transportation and encourage communities to eat
+          local and fresh produce, thereby supporting local businesses.
+        </p>
+      </>
     ),
     img: "/images/projects/moko/ecology.svg",
     backgroundcolor: "#87B676",
@@ -103,7 +113,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
       </p>
     ),
     img: "/images/projects/patientviz/health2.png",
-    backgroundcolor: "#8D6AA3",
+    backgroundcolor: "#b195c2",
     textcolor: "black",
     //box: true,
   },

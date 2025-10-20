@@ -18,7 +18,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "Through Moko, users can buy and sell fresh produce within their local communities.\nThe app’s home shows local vendors who are near the user, allowing them to add items to their cart. Moko also features a sell function where users can create their own store and sell their produce to other users.\nUsers can track their carbon footprint by using the footprint function and check how they are minimizing CO2 emissions by buying and selling locally.",
+          'Through Moko, farmers can buy and sell fresh produce within their local communities. The app’s home shows local vendors who are near the user, allowing them to add items to their cart. Moko also features a sell function where vendors can create their own store and sell their produce to other users. Consumers and vendors alike can track their carbon footprint by using the "Footprint" function and check how they are reducing their emissions by buying or selling locally.',
         img: [
           `${imageSrc}/moko/home.png`,
           `${imageSrc}/moko/buy.png`,
@@ -63,7 +63,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "ChessMate has an interactive user interface with AI support for different levels of chess proficiency. It contains a chess timer that enforces users to think on their feet. The app contains an achievement section where users can see which achievements they completed and which are in progress.\nChessMate allows users to reply past games so they can analyze their strategy and improve.",
+          "ChessMate has an interactive user interface with AI support for different levels of chess proficiency. It incorporates a chess timer feature that encourages users to think on their feet. The app contains an achievement section where users can see which achievements they completed and which are in progress. ChessMate allows users to replay past games so they can analyze their strategy and improve.",
         img: [
           `${imageSrc}/chessmate/Landing.png`,
           `${imageSrc}/chessmate/Home.png`,
@@ -98,7 +98,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "PatientViz allows the physician to import patient intake form responses, and visualize this data against the clinic’s patient pool. Also, users are able to filter the data to be visualized by conditional subpopulations (e.g. patients taking certain medications, patients with a certain set of symptoms, etc.). Analytical statistics such as the correlation between medications and diagnoses within the clinic’s population are also presented in a drill-down view.",
+          "PatientViz allows the physician to import patient intake form responses and visualize this data against the clinic’s patient pool. Also, users can filter the data to be visualized by conditional subpopulations, such as patients taking certain medications, patients with a certain set of symptoms, etc. Analytical statistics such as the correlation between medications and diagnoses within the clinic’s population are also presented in a drill-down view.",
 
         img: [
           `${imageSrc}/patientviz/desc1.png`,
@@ -110,7 +110,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "The application also automatically generates individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case, including their current medications and diagnoses information, cross examination of that data against the population to identify trends, free-text notes, non-medical interventions, and root causes.",
+          "The application also automatically generates individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case, including their current medications and diagnoses information, cross-examination of that data against the population to identify trends, free-text notes, non-medical interventions, and root causes.",
 
         img: [
           `${imageSrc}/patientviz/desc6.png`,
@@ -124,7 +124,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "Alacrity contains a calendar view where it displays user’s tasks and users can manually move their workload around the calendar.\nThe app automatically optimizes their personal calendar using algorithms to spread work out as evenly as possible. Users can add tasks to the calendar by filling out the options which will then be presented on their calendar in the most optimized way.",
+          "Alacrity contains a calendar view where it displays user’s tasks, where they can manually re-arrange their workload around the calendar. The app can also automatically optimize the calendar using algorithms to spread work out as evenly as possible. Users can add tasks to the calendar by filling out the options which will then be presented to them in the most optimized way.",
 
         img: [
           `${imageSrc}/alacrity/landing.png`,
