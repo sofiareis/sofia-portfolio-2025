@@ -16,7 +16,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
       <>
         <p>
           CareerCue&apos;s purpose came from recognizing the challenges and
-          anxiety many prospective applicants face when preparing for job
+          anxiety that many prospective applicants face when preparing for job
           interviews. The entire process can be stressful, and many people
           don&apos;t have the resources to know how to best prepare for the
           questions that may be asked.
@@ -104,7 +104,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
   [PATIENVIZ]: {
     inspo: (
       <p>
-        Triage is a crucial tool in managing long waitlists as the process
+        Triage is a crucial tool in managing long waitlists, as the process
         enables more equitable care and allows patients with the greatest and
         most urgent needs to be seen first. However, it can be complicated, as
         referrals received by specialist physicians often differ in detail and
@@ -139,7 +139,7 @@ export const projectInspiration: Record<string, ProjectInspiration> = {
       <p>
         A portmanteau of the words &quot;she&quot;, &quot;share&quot;, and
         &quot;charity&quot;, Sharity is a donation app focused on providing
-        women with necessities. Sharity promotes women empowerment in the
+        women with necessities. Sharity promotes women&apos;s empowerment in the
         community and sustainability by encouraging users to donate their used
         or new items to local female’s shelters.
       </p>

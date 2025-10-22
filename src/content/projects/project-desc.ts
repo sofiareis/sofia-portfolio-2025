@@ -37,7 +37,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "On the user side, Sharity allows users to connect to women shelters and donate clothing articles and personal hygiene products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built-in maps function, and can view each shelter’s donation wishlist. Users also have access to the Period Positivity fundraiser, where funds go towards purchasing personal hygiene products for local Vancouver organizations.",
+          "On the user side, Sharity allows users to connect to women's shelters and donate clothing articles and personal hygiene products. They can take pictures of their items, upload them to the app, and donate to selected organizations. Users can search local shelters on the built-in maps function, and can view each shelter’s donation wishlist. Users also have access to the Period Positivity fundraiser, where funds go towards purchasing personal hygiene products for local Vancouver organizations.",
         img: [
           `${imageSrc}/sharity/description/landing.png`,
           `${imageSrc}/sharity/description/user1.png`,
@@ -124,7 +124,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "Alacrity contains a calendar view where it displays user’s tasks, where they can manually re-arrange their workload around the calendar. The app can also automatically optimize the calendar using algorithms to spread work out as evenly as possible. Users can add tasks to the calendar by filling out the options which will then be presented to them in the most optimized way.",
+          "Alacrity contains a calendar view where it displays users’ tasks, where they can manually rearrange their workload around the calendar. The app can also automatically optimize the calendar using algorithms to spread work out as evenly as possible. Users can add tasks to the calendar by filling out the options, which will then be presented to them in the most optimized way.",
 
         img: [
           `${imageSrc}/alacrity/landing.png`,
@@ -143,7 +143,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          '\"Renew\" is a community-based app where users can find a support network with individuals from their country of origin, wherever they may find themselves. Within these communities users can connect, post, and comment questions or resources. Additionally, there is a map feature that filters for nearby food banks, hospitals, and unsafe areas.',
+          '\"Renew\" is a community-based app where users can find a support network with individuals from their country of origin, wherever they may find themselves. Within these communities, users can connect, post, and comment questions or resources. Additionally, there is a map feature that filters for nearby food banks, hospitals, and unsafe areas.',
         img: [
           `${imageSrc}/renew/desc1.png`,
           `${imageSrc}/renew/desc2.png`,
@@ -160,7 +160,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
     descriptionArray: [
       {
         description:
-          "The web app has a Search page that shows all the existing cards and a filter feature that users can use to find any specific cards they want. From the Search page, users can add a card to their collection or to their wishlist. If they already have that card a notification will appear letting them know.",
+          "The web app has a Search page that shows all the existing cards and a filter feature that users can use to find any specific cards they want. From the Search page, users can add a card to their collection or to their wishlist. If they already have that card, a notification will appear letting them know.",
 
         img: [
           `${imageSrc}/onepiece/filter.png`,
@@ -171,7 +171,7 @@ export const projectDescription: Record<string, ProjectDescription> = {
       },
       {
         description:
-          "On the Collection page, users can see their collection, change the quantity of cards, and delete cards.\nThe Missing page shows all the cards the user doesn't have (based on their collection). From there, they can move a card to their collection (which would delete the card from the Missing page) or to their wishlist (which desn't change the state of the missing cards)",
+          "On the Collection page, users can see their collection, change the quantity of cards, and delete cards.\nThe Missing page shows all the cards the user doesn't have (based on their collection). From there, they can move a card to their collection (which would delete the card from the Missing page) or to their wishlist (which doesn't change the state of the missing cards)",
         img: [
           `${imageSrc}/onepiece/collection.png`,
           `${imageSrc}/onepiece/missing.png`,
