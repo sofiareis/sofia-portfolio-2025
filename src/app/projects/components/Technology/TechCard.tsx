@@ -42,12 +42,3 @@ const TechCard = ({
 };
 
 export default TechCard;
-/*
-<div
-      className="relative transition-transform duration-300 ease-out
-    hover:scale-101 hover:shadow-2xl  "
-    >
-      <div className="absolute inset-0 bg-gradient-to-br from-[#B97987]/25 to-[#3C5C90]/25  card" />
-      <div className="hover:backdrop-blur-sm relative card bg-white/10 shadow-lg ring-2 ring-black/5 backdrop-blur-md  text-start py-5 px-4 ">
-      </div>
-      */

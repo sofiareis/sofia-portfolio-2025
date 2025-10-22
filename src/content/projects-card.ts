@@ -78,31 +78,6 @@ export const projects: CardProps[] = [
     technologies: ["JavaScript", "React", "Flask", "MySQL"],
     backgroundcolor: "#1EAFF8",
   },
-  /*
-    {
-      title: 'Dancing Robot',
-      description: 'A robot that moves like it is dancing...',
-      imageSrc: dancingrobot,
-      page: 'dancingrobot',
-  
-    },
-
-    {
-      title: 'Robot Dog',
-      description: 'A robot that has dog life features (tail, voice control, movement)...',
-      imageSrc: robotdog,
-      page: 'robotdog',
-  
-    },
-
-    {
-      title: 'BobaBudy',
-      description: 'An app to determine which is your favourite Bubble Tea flavor',
-      imageSrc: boba,
-      page: 'bobabuddy',
-  
-    },
-    */
 ];
 
 export const projectsSummary = projects;

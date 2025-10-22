@@ -187,38 +187,6 @@ export const projects = [
   },
 ];
 
-/*
-export const projects = [
-    {
-        heading: 'PatientViz' ,
-        wheredate: 'Capstone Project',
-        description: ['Implemented an Electron desktop application to help physicians of BC Children’s Hospital with the triage process of patients, aiding the decrease of waiting lists',
-                    'Built, using React, a data visualization tool and a medications and symptoms filter to allow physicians to observe correlations within the patients, improving the efficiency and accuracy of the triage',
-                    ],
-        skill: ['JavaScript', 'React', 'GraphQL'],
-    },
-
-    {
-        heading: 'Sharity' ,
-        wheredate: 'cmd-f Hackathon [1st place winner and invited to Pinnacle, the Olympics of Hackathons]',
-        description: ['Implemented a React Native (JavaScript) mobile app that connects users to women’s shelters, encouraging them to donate items, fundraise for necessities, and practice sustainability',
-                    'Developed, using Google Maps API, a search feature that allows users to locate nearby shelters',
-                    'Built a Tinder-like swipe UI that allows organizations to accept or decline donation items, saving time and preventing charities from receiving needless products'
-                    ],
-        skill: ['JavaScript', 'React', 'GraphQL'],
-    },
-
-    {
-        heading: 'Moko' ,
-        wheredate: 'Pinnacle - the Olympics of Hackathons',
-        description: ['Designed a React Native (JavaScript) mobile app that allows users to buy and sell fresh produce within their local communities, helping minimize pollution from food transportation',
-                    'Used Node.js and MySQL for the backend, and Google Geocoding API to locate and connect users',
-                    ],
-        skill: ['JavaScript', 'React', 'GraphQL'],
-    },
-];
-*/
-
 export const resume = [
   {
     title: "Education",

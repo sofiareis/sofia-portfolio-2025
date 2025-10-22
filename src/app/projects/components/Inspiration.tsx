@@ -53,35 +53,3 @@ const ProjectInspo = (project: ProjectInspiration) => {
 };
 
 export default ProjectInspo;
-
-/*project.renew ? (
-    <div className="flex items-center justify-center bg-[var(--renew-colour)] bg-[url('/renew/vector2.png')] bg-no-repeat bg-contain bg-right">
-      <div className="w-full max-w-[var(--max-width)] m-[var(--margin)] z-[1]">
-        <div className="flex flex-col">
-          <div className="text-xl font-semibold mb-4">The Inspiration</div>
-          <div className="flex">
-            <div className="flex-1">
-              <div className="text-base leading-relaxed">
-                {project.inspo.split("\n").map((line, index) => (
-                  <React.Fragment key={index}>
-                    {line}
-                    <br />
-                    <br />
-                  </React.Fragment>
-                ))}
-              </div>
-              <div className="font-semibold text-lg mt-4 text-center md:text-left">
-                <p className="mt-0 mb-2">Check out the code:</p>
-                <a target="_blank" href={project.githubLink}>
-                  <FontAwesomeIcon
-                    icon={projectLinks.icon}
-                    className="text-black h-10 w-10 pl-4 hover:text-white transition-colors duration-300 md:pl-4"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  ) :*/

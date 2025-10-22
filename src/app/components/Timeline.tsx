@@ -37,8 +37,6 @@ const Timeline = () => {
           className="relative md:mb-15 mb-6 pl-1 md:pl-10"
           variants={itemVariants}
         >
-          {/**  <span className="absolute left-[-11px] top-0 w-[25px] h-[25px] -translate-x-1/2 rounded-full bg-primary/80 z-10"></span> */}
-
           <TimelineCard
             company={item.company}
             date={item.date}
