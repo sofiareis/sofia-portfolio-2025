@@ -10,7 +10,7 @@ const TechCarousel = () => {
         className="flex justify-center items-center py-4"
         animate={{ x: ["0%", "-100%"] }}
         transition={{
-          duration: 20,
+          duration: 30,
           ease: "linear",
           repeat: Infinity,
           repeatType: "loop",
@@ -25,7 +25,7 @@ const TechCarousel = () => {
         className="flex justify-center items-center py-4"
         animate={{ x: ["0%", "-100%"] }}
         transition={{
-          duration: 20,
+          duration: 30,
           ease: "linear",
           repeat: Infinity,
           repeatType: "loop",
