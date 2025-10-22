@@ -27,15 +27,6 @@
   --color-primaryHover: #934d5a;
 }
 
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-*/
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -93,4 +84,8 @@ body {
 
 .project-layout {
   @apply w-full max-w-[1400px] md:mx-15 mx-5 md:my-10 my-5;
+}
+
+.slick-dots li.slick-active .btn {
+  @apply bg-[#75454e] scale-125 shadow-xl;
 }
