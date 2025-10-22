@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/app.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
           <div className="flex">
             <div className="flex h-screen min-w-0 grow flex-col overflow-auto">
               <Navbar />
+              <ScrollToTop />
               <div id="layout-content" className="relative z-10">
                 {children}
               </div>
