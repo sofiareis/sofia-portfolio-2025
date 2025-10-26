@@ -115,7 +115,7 @@ const Intro = () => {
           alt="Sofia"
           width={1490}
           height={1950}
-          className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-full w-auto rounded-3xl object-cover"
+          className="lg:max-h-[480px] md:max-h-[450px] sm:max-h-[300px] max-h-[220px] h-full w-auto rounded-3xl"
         />
       </motion.div>
     </section>
